@@ -15593,11 +15593,11 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "bmi" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer1{
+	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
@@ -16433,6 +16433,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
 "bqg" = (
@@ -16698,11 +16699,11 @@
 	dir = 1
 	},
 /obj/effect/landmark/start/geneticist,
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer1{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer3{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 8
 	},
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
@@ -18078,6 +18079,9 @@
 "bxj" = (
 /obj/structure/table,
 /obj/machinery/computer/security/telescreen/rd,
+/obj/item/radio/intercom{
+	pixel_y = 25
+	},
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/heads/hor)
 "bxk" = (
@@ -33909,7 +33913,7 @@
 	name = "lavaland"
 	},
 /obj/effect/spawner/structure/window/reinforced,
-/turf/open/space/basic,
+/turf/open/floor/plating,
 /area/engine/engineering)
 "czO" = (
 /obj/effect/landmark/event_spawn,
@@ -37036,8 +37040,8 @@
 /turf/open/floor/plasteel/stairs/old,
 /area/crew_quarters/bar)
 "fVn" = (
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer1{
-	dir = 8
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{
+	dir = 4
 	},
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
@@ -37410,10 +37414,6 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/chapel/office)
-"gKR" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/space/basic,
-/area/engine/engineering)
 "gLd" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -38119,9 +38119,14 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
 "ifv" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
-/turf/open/floor/plasteel/white,
-/area/science/genetics)
+/obj/structure/chair/wood/wzzzz/red{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plasteel/chapel{
+	dir = 1
+	},
+/area/chapel/main)
 "igF" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/engine_waste{
 	dir = 1
@@ -39355,7 +39360,6 @@
 /turf/open/floor/plasteel,
 /area/hydroponics)
 "kxC" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer3{
 	dir = 1
 	},
@@ -39616,6 +39620,10 @@
 	dir = 1
 	},
 /mob/living/carbon/monkey,
+/obj/machinery/airalarm{
+	dir = 8;
+	pixel_x = 24
+	},
 /turf/open/floor/engine,
 /area/science/genetics)
 "kXt" = (
@@ -40634,15 +40642,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/fore)
-"nhx" = (
-/obj/structure/chair/wood/wzzzz/red{
-	dir = 1
-	},
-/obj/structure/cable,
-/turf/open/floor/plasteel/chapel{
-	dir = 1
-	},
-/area/chapel/main)
 "nls" = (
 /obj/machinery/power/apc{
 	areastring = "/area/quartermaster/storage";
@@ -40716,6 +40715,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
 "nro" = (
@@ -41071,6 +41071,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
 "nXT" = (
@@ -42537,6 +42538,9 @@
 	pixel_y = 2;
 	req_access_txt = "9"
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer3{
+	dir = 1
+	},
 /turf/open/floor/engine,
 /area/science/genetics)
 "qrS" = (
@@ -42920,8 +42924,8 @@
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
 "rhT" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 10
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer1{
+	dir = 4
 	},
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
@@ -44508,12 +44512,14 @@
 /turf/open/floor/plasteel/white,
 /area/medical/medbay)
 "ubw" = (
-/obj/effect/turf_decal/bot,
-/obj/item/radio/intercom{
-	pixel_y = -29
+/obj/structure/chair/wood/wzzzz/red{
+	dir = 1
 	},
-/turf/open/floor/plasteel/dark,
-/area/science/nanite)
+/obj/structure/cable,
+/turf/open/floor/plasteel/chapel{
+	dir = 8
+	},
+/area/chapel/main)
 "ubN" = (
 /obj/structure/table,
 /obj/machinery/microwave{
@@ -44733,15 +44739,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar/atrium)
-"upk" = (
-/obj/structure/chair/wood/wzzzz/red{
-	dir = 1
-	},
-/obj/structure/cable,
-/turf/open/floor/plasteel/chapel{
-	dir = 8
-	},
-/area/chapel/main)
 "upN" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -45734,6 +45731,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
 "vPE" = (
@@ -45824,6 +45822,10 @@
 /obj/structure/bodycontainer/morgue,
 /turf/open/floor/plasteel,
 /area/medical/morgue)
+"vZW" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
+/turf/open/floor/plasteel/white,
+/area/science/genetics)
 "way" = (
 /obj/effect/turf_decal/bot{
 	dir = 1
@@ -46176,8 +46178,8 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
 	dir = 9
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
-	dir = 9
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer3{
+	dir = 4
 	},
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
@@ -46462,9 +46464,6 @@
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{
-	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
@@ -81764,9 +81763,9 @@ cBP
 clZ
 bOh
 ccw
-gKR
+cqY
 czN
-gKR
+cqY
 hZh
 gXs
 aaa
@@ -94319,7 +94318,7 @@ qeQ
 tgl
 qGG
 oMN
-ubw
+cbe
 bvK
 bxj
 byq
@@ -94548,11 +94547,11 @@ cSE
 cSE
 cSE
 cSE
-nhx
-upk
+ifv
+ubw
 aTi
-upk
-upk
+ubw
+ubw
 aXB
 aZg
 aFz
@@ -96627,7 +96626,7 @@ bon
 brz
 brv
 kxC
-ifv
+bsL
 fVn
 xkP
 cYY
@@ -96883,8 +96882,8 @@ bEG
 bon
 tcY
 bmi
-bsL
-bsL
+vZW
+vZW
 rhT
 ink
 pSN
