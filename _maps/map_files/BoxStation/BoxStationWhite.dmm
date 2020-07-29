@@ -24652,11 +24652,10 @@
 /turf/open/floor/plasteel,
 /area/engine/atmos)
 "bPj" = (
-/obj/structure/grille,
 /obj/machinery/atmospherics/pipe/simple{
 	dir = 4
 	},
-/obj/machinery/meter,
+/obj/structure/grille,
 /turf/closed/wall/r_wall,
 /area/engine/atmos)
 "bPk" = (
@@ -25537,6 +25536,7 @@
 /obj/machinery/atmospherics/pipe/simple/yellow/visible{
 	dir = 4
 	},
+/obj/machinery/meter,
 /turf/open/space/basic,
 /area/space/nearstation)
 "bRL" = (
@@ -26816,6 +26816,7 @@
 "bVu" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/yellow/visible,
+/obj/machinery/meter,
 /turf/open/space/basic,
 /area/space/nearstation)
 "bVv" = (
@@ -26823,6 +26824,7 @@
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 4
 	},
+/obj/machinery/meter,
 /turf/open/space/basic,
 /area/space/nearstation)
 "bVw" = (
@@ -27407,6 +27409,7 @@
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
 	dir = 4
 	},
+/obj/machinery/meter,
 /turf/open/floor/plasteel,
 /area/engine/atmos)
 "bWV" = (
@@ -30899,6 +30902,7 @@
 "ciz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/dark/visible,
+/obj/machinery/meter,
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
 "ciC" = (
@@ -31315,26 +31319,9 @@
 /obj/structure/table,
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
-"ckb" = (
-/obj/structure/grille,
-/obj/machinery/atmospherics/pipe/simple,
-/obj/machinery/meter,
-/turf/closed/wall/r_wall,
-/area/engine/atmos)
-"ckc" = (
-/obj/structure/grille,
-/obj/machinery/atmospherics/pipe/simple,
-/obj/machinery/meter{
-	name = "Mixed Air Tank In"
-	},
-/turf/closed/wall/r_wall,
-/area/engine/atmos)
 "ckd" = (
-/obj/structure/grille,
 /obj/machinery/atmospherics/pipe/simple,
-/obj/machinery/meter{
-	name = "Mixed Air Tank Out"
-	},
+/obj/structure/grille,
 /turf/closed/wall/r_wall,
 /area/engine/atmos)
 "ckf" = (
@@ -32102,6 +32089,7 @@
 "cph" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/green/visible,
+/obj/machinery/meter,
 /turf/open/space/basic,
 /area/space/nearstation)
 "cpq" = (
@@ -32153,6 +32141,7 @@
 "cpP" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/obj/machinery/meter,
 /turf/open/space/basic,
 /area/space/nearstation)
 "cpQ" = (
@@ -34620,10 +34609,11 @@
 /area/space/nearstation)
 "cCH" = (
 /obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/machinery/atmospherics/pipe/simple/yellow/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/orange/visible,
+/obj/machinery/meter,
 /turf/open/space/basic,
 /area/space/nearstation)
 "cCI" = (
@@ -34633,10 +34623,11 @@
 /area/space/nearstation)
 "cCJ" = (
 /obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/simple/orange/visible,
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/orange/visible,
+/obj/machinery/meter,
 /turf/open/space/basic,
 /area/space/nearstation)
 "cCL" = (
@@ -35046,6 +35037,11 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
+"cKe" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible,
+/obj/machinery/meter,
+/turf/open/floor/plasteel,
+/area/engine/atmos)
 "cMC" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
@@ -37414,6 +37410,12 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/chapel/office)
+"gKJ" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
+/obj/machinery/meter,
+/turf/open/space/basic,
+/area/space/nearstation)
 "gLd" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -41023,6 +41025,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/storage/tools)
+"nVd" = (
+/obj/machinery/atmospherics/pipe/simple/green/visible,
+/obj/machinery/atmospherics/pipe/simple/yellow/visible{
+	dir = 4
+	},
+/obj/machinery/meter,
+/turf/open/floor/plasteel,
+/area/engine/atmos)
 "nWm" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/disposalpipe/segment,
@@ -42692,6 +42702,11 @@
 /obj/item/flashlight/lamp/green,
 /turf/open/floor/carpet,
 /area/security/detectives_office)
+"qIp" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/obj/machinery/meter,
+/turf/open/floor/plasteel,
+/area/engine/atmos)
 "qJP" = (
 /turf/closed/wall/r_wall,
 /area/engine/engine_room/external)
@@ -43126,7 +43141,7 @@
 	dir = 8
 	},
 /turf/open/space/basic,
-/area/space/nearstation)
+/area/engine/atmos)
 "rIY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
 	dir = 4
@@ -44697,6 +44712,7 @@
 /obj/machinery/atmospherics/pipe/simple/dark/visible{
 	dir = 6
 	},
+/obj/machinery/meter,
 /turf/open/floor/plasteel,
 /area/engine/atmos)
 "unr" = (
@@ -45251,6 +45267,11 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/hallway/secondary/entry)
+"veB" = (
+/obj/machinery/atmospherics/pipe/simple/general/visible,
+/obj/machinery/meter,
+/turf/closed/wall/r_wall,
+/area/maintenance/disposal/incinerator)
 "vgF" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -45328,7 +45349,7 @@
 	dir = 8
 	},
 /turf/open/space/basic,
-/area/space/nearstation)
+/area/engine/atmos)
 "vly" = (
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -47075,7 +47096,7 @@
 	dir = 1
 	},
 /turf/open/space/basic,
-/area/space/nearstation)
+/area/engine/atmos)
 "yiW" = (
 /obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
@@ -79444,7 +79465,7 @@ cfO
 cgW
 cit
 cph
-ckb
+ckd
 ckV
 clU
 clU
@@ -79958,7 +79979,7 @@ cfQ
 cgY
 ciu
 bVu
-ckb
+ckd
 ckW
 clU
 clU
@@ -80472,7 +80493,7 @@ cfR
 cha
 civ
 cph
-ckb
+ckd
 ckY
 clW
 clW
@@ -80986,7 +81007,7 @@ cfQ
 chb
 ciu
 bVu
-ckb
+ckd
 ckZ
 clW
 clW
@@ -81488,7 +81509,7 @@ bUS
 bUS
 cCD
 wHy
-bUS
+bTQ
 bUS
 bUS
 bXU
@@ -81500,7 +81521,7 @@ cfQ
 chd
 bQy
 cpP
-ckc
+ckd
 clb
 clY
 clZ
@@ -81741,10 +81762,10 @@ bQw
 bRG
 bSN
 bTT
-bUR
+cKe
 bWb
 cCE
-bTT
+nVd
 bUR
 bZJ
 bUR
@@ -82010,7 +82031,7 @@ ccA
 cdC
 ceB
 cez
-cez
+qIp
 chf
 cix
 cpP
@@ -84588,7 +84609,7 @@ cjr
 clh
 dtD
 dTa
-kJB
+gKJ
 kJB
 kJB
 kJB
@@ -85102,7 +85123,7 @@ nHw
 csq
 cme
 uEq
-cme
+veB
 cop
 kgk
 cmd
@@ -85616,7 +85637,7 @@ clj
 ckk
 cme
 hfX
-cme
+veB
 cor
 cmd
 cmd
