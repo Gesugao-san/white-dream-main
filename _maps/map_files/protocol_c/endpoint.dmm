@@ -76,7 +76,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "as" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -86,7 +88,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "au" = (
 /obj/structure/table/wood,
 /obj/item/paint/anycolor{
@@ -160,7 +164,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "aH" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien13"
@@ -193,7 +199,9 @@
 	pixel_y = -24
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "aJ" = (
 /obj/structure/table/wood,
 /obj/item/clipboard,
@@ -214,7 +222,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "aK" = (
 /obj/structure/table/wood{
 	layer = 3.3
@@ -261,7 +271,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "aO" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/holofloor{
@@ -416,7 +428,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "bk" = (
 /obj/structure/chair/wood,
 /turf/open/floor/holofloor{
@@ -433,7 +447,9 @@
 	})
 "bm" = (
 /turf/open/floor/plasteel/dark,
-/area/centcom/supplypod)
+/area/centcom/supplypod{
+	name = "NT CentCom Supplypod Facility"
+	})
 "bo" = (
 /obj/effect/holodeck_effect/mobspawner,
 /turf/open/floor/holofloor/plating,
@@ -458,12 +474,16 @@
 /obj/machinery/portable_atmospherics/canister/water_vapor,
 /obj/machinery/atmospherics/pipe/manifold4w/green/hidden,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "bw" = (
 /obj/machinery/atmospherics/pipe/manifold4w/green/hidden,
 /obj/machinery/meter,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "bx" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -483,13 +503,17 @@
 "bA" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "bB" = (
 /obj/machinery/atmospherics/components/unary/portables_connector{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "bD" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -498,7 +522,9 @@
 /obj/structure/flora/ausbushes/palebush,
 /obj/machinery/light,
 /turf/open/floor/plating/asteroid,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "bE" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -549,7 +575,9 @@
 "bL" = (
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "bO" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -570,7 +598,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "bQ" = (
 /obj/machinery/computer/operating{
 	dir = 4
@@ -582,7 +612,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "bR" = (
 /obj/structure/chair/wood/wings,
 /turf/open/floor/holofloor/snow,
@@ -590,7 +622,9 @@
 "bS" = (
 /obj/machinery/portable_atmospherics/canister/miasma,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "bT" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4
@@ -621,7 +655,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "bV" = (
 /obj/structure/window/reinforced,
 /turf/open/floor/holofloor{
@@ -649,7 +685,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "bY" = (
 /obj/structure/chair/wood,
 /turf/open/floor/holofloor/snow,
@@ -680,7 +718,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/two)
+/area/centcom/supplypod/loading/two{
+	name = "NT CentCom SupplyPod Bay #2"
+	})
 "cd" = (
 /turf/open/floor/holofloor{
 	dir = 9;
@@ -786,7 +826,9 @@
 	req_access_txt = "106"
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "cw" = (
 /obj/structure/table,
 /obj/item/stack/medical/bruise_pack{
@@ -811,7 +853,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "cz" = (
 /obj/structure/table/wood,
 /obj/item/instrument/violin,
@@ -825,7 +869,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "cD" = (
 /obj/structure/chair/comfy/brown{
 	buildstackamount = 0;
@@ -839,7 +885,9 @@
 /area/space)
 "cF" = (
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "cG" = (
 /obj/structure/table/wood,
 /obj/item/book/manual/wiki/barman_recipes,
@@ -899,7 +947,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "cT" = (
 /turf/closed/indestructible/syndicate,
 /area/trading_outpost)
@@ -938,7 +988,9 @@
 	pixel_y = 23
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "cY" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/trading_outpost)
@@ -1017,7 +1069,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "dq" = (
 /obj/structure/flora/ausbushes/genericbush,
 /turf/open/floor/holofloor/grass,
@@ -1199,7 +1253,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "dM" = (
 /turf/open/floor/holofloor/beach,
 /area/holodeck/rec_center/beach)
@@ -1213,7 +1269,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "dO" = (
 /obj/machinery/light{
 	dir = 1
@@ -1325,14 +1383,18 @@
 /obj/machinery/door/poddoor/ert,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "eg" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/holofloor/grass,
 /area/holodeck/rec_center/pet_lounge)
 "eh" = (
 /turf/closed/indestructible/riveted,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ei" = (
 /obj/effect/baseturf_helper/asteroid/snow,
 /turf/closed/indestructible/rock/snow,
@@ -1390,7 +1452,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "es" = (
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
@@ -1404,7 +1468,9 @@
 "eu" = (
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ew" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -1452,7 +1518,9 @@
 "eH" = (
 /obj/machinery/atmospherics/components/unary/portables_connector,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "eI" = (
 /turf/open/floor/plasteel,
 /area/trading_outpost)
@@ -1542,7 +1610,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "eV" = (
 /obj/structure/table/optable,
 /turf/open/floor/holofloor{
@@ -1579,7 +1649,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "eY" = (
 /obj/structure/table/glass,
 /obj/item/clothing/gloves/color/latex/nitrile,
@@ -1626,7 +1698,9 @@
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "fc" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -1637,7 +1711,9 @@
 "fd" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "fe" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
@@ -1647,7 +1723,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ff" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -1756,7 +1834,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "fs" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -1800,7 +1880,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "fy" = (
 /obj/item/clothing/under/color/rainbow,
 /obj/item/clothing/glasses/sunglasses,
@@ -1857,7 +1939,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "fH" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien3"
@@ -1870,7 +1954,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "fJ" = (
 /obj/structure/window{
 	dir = 1
@@ -1908,7 +1994,9 @@
 /obj/effect/landmark/ert_spawn,
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "fQ" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -1927,7 +2015,9 @@
 	icon_state = "plant-10"
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "fR" = (
 /obj/effect/holodeck_effect/mobspawner/bee,
 /obj/effect/decal/remains/human,
@@ -1952,7 +2042,9 @@
 	turftype = /turf/open/floor/plating/asteroid/snow
 	},
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "fX" = (
 /obj/machinery/chem_master,
 /turf/open/floor/holofloor{
@@ -2047,7 +2139,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "gn" = (
 /obj/structure/table/reinforced,
 /obj/item/clipboard,
@@ -2064,10 +2158,14 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "gp" = (
 /turf/open/floor/plasteel/dark,
-/area/centcom/supplypod/pod_storage)
+/area/centcom/supplypod/pod_storage{
+	name = "NT CentCom Supplypod Storage"
+	})
 "gq" = (
 /obj/structure/window{
 	dir = 1
@@ -2121,7 +2219,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "gw" = (
 /obj/structure/window,
 /obj/item/toy/beach_ball/holoball/dodgeball,
@@ -2196,7 +2296,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "gJ" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
@@ -2254,7 +2356,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/supplypod)
+/area/centcom/supplypod{
+	name = "NT CentCom Supplypod Facility"
+	})
 "gW" = (
 /obj/structure/window{
 	dir = 8
@@ -2422,11 +2526,15 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "hD" = (
 /obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "hE" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 1
@@ -2443,7 +2551,9 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "hG" = (
 /obj/structure/chair/wood{
 	dir = 1
@@ -2461,11 +2571,15 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "hI" = (
 /obj/item/storage/belt/utility/chief/full,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "hJ" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -2479,7 +2593,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "hK" = (
 /turf/open/floor/holofloor/beach/coast_b,
 /area/holodeck/rec_center/beach)
@@ -2552,7 +2668,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "hU" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/holofloor{
@@ -2603,7 +2721,9 @@
 	pixel_y = 12
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "hZ" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 8
@@ -2631,7 +2751,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "ie" = (
 /obj/machinery/airalarm{
 	dir = 1;
@@ -2648,7 +2770,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "if" = (
 /obj/structure/holohoop{
 	dir = 1;
@@ -2690,7 +2814,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "il" = (
 /obj/machinery/hydroponics/constructable,
 /obj/machinery/light{
@@ -2740,7 +2866,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "is" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien19"
@@ -2753,7 +2881,9 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "iu" = (
 /turf/open/floor/holofloor/beach/water,
 /area/holodeck/rec_center/beach)
@@ -2809,7 +2939,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "iA" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -2817,7 +2949,9 @@
 	},
 /mob/living/simple_animal/hostile/carp/cayenne,
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "iC" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 8
@@ -2895,7 +3029,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "iR" = (
 /obj/structure/table/reinforced,
 /obj/item/flashlight/seclite,
@@ -2910,7 +3046,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "iS" = (
 /mob/living/simple_animal/cow,
 /turf/open/floor/grass,
@@ -2931,13 +3069,17 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "iW" = (
 /obj/machinery/atmospherics/components/binary/volume_pump{
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "iX" = (
 /obj/structure/closet/crate,
 /obj/item/vending_refill/autodrobe,
@@ -2958,7 +3100,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/one)
+/area/centcom/supplypod/loading/one{
+	name = "NT CentCom SupplyPod Bay #1"
+	})
 "iZ" = (
 /obj/machinery/vending/hydroseeds,
 /obj/effect/turf_decal/tile/green{
@@ -2993,7 +3137,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "jd" = (
 /obj/structure/closet/secure_closet/ert_sec,
 /obj/structure/sign/directions/security{
@@ -3004,7 +3150,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "je" = (
 /obj/item/banner/blue,
 /turf/open/floor/holofloor/grass,
@@ -3026,7 +3174,9 @@
 "jh" = (
 /obj/machinery/light,
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "ji" = (
 /obj/machinery/status_display/evac{
 	pixel_y = 32
@@ -3042,7 +3192,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "jj" = (
 /obj/structure/table/wood/fancy,
 /obj/item/clothing/head/crown/fancy{
@@ -3053,7 +3205,9 @@
 "jk" = (
 /obj/machinery/newscaster/security_unit,
 /turf/closed/indestructible/riveted,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "jm" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -3072,7 +3226,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "jo" = (
 /obj/item/surgical_drapes,
 /obj/item/paper/guides/antag/abductor,
@@ -3113,7 +3269,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "jr" = (
 /obj/structure/closet/abductor,
 /turf/open/floor/plating/abductor,
@@ -3122,7 +3280,9 @@
 	})
 "js" = (
 /turf/closed/indestructible/fakeglass,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "jt" = (
 /obj/structure/table/wood/fancy,
 /obj/item/clothing/suit/armor/riot/knight/red,
@@ -3132,7 +3292,9 @@
 /area/holodeck/rec_center/thunderdome1218)
 "ju" = (
 /turf/closed/indestructible/riveted,
-/area/centcom/supplypod)
+/area/centcom/supplypod{
+	name = "NT CentCom Supplypod Facility"
+	})
 "jv" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien4"
@@ -3153,7 +3315,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "jB" = (
 /obj/machinery/biogenerator,
 /obj/effect/turf_decal/tile/green{
@@ -3174,7 +3338,9 @@
 	},
 /obj/effect/turf_decal/tile/green,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "jD" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Supply";
@@ -3204,7 +3370,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "jF" = (
 /obj/item/banner/red,
 /turf/open/floor/holofloor/grass,
@@ -3312,7 +3480,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "jY" = (
 /obj/structure/closet{
 	density = 0
@@ -3346,7 +3516,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "kd" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -3356,7 +3528,9 @@
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ke" = (
 /obj/structure/table/wood,
 /obj/item/storage/photo_album,
@@ -3375,7 +3549,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "kf" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Security";
@@ -3389,7 +3565,9 @@
 "kg" = (
 /obj/machinery/portable_atmospherics/canister/nob,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "kh" = (
 /obj/structure/reagent_dispensers/cooking_oil,
 /turf/open/floor/plasteel/cafeteria,
@@ -3514,7 +3692,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "kE" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -3547,7 +3727,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/two)
+/area/centcom/supplypod/loading/two{
+	name = "NT CentCom SupplyPod Bay #2"
+	})
 "kI" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -3564,7 +3746,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "kJ" = (
 /turf/closed/indestructible/black,
 /area/trading_outpost)
@@ -3582,7 +3766,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "kL" = (
 /obj/machinery/card_button/trader/extension{
 	alpha = 125;
@@ -3611,7 +3797,9 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "kP" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -27
@@ -3744,7 +3932,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "lg" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
@@ -3888,7 +4078,9 @@
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/green,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "lG" = (
 /obj/structure/chair,
 /turf/open/floor/holofloor{
@@ -3918,7 +4110,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "lI" = (
 /obj/structure/curtain,
 /obj/structure/window/reinforced/tinted{
@@ -3947,7 +4141,9 @@
 "lL" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/three)
+/area/centcom/supplypod/loading/three{
+	name = "NT CentCom SupplyPod Bay #3"
+	})
 "lM" = (
 /obj/structure/table/wood,
 /obj/item/folder,
@@ -3968,7 +4164,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "lO" = (
 /obj/structure/table/wood,
 /obj/item/toy/crayon/white,
@@ -3980,7 +4178,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/two)
+/area/centcom/supplypod/loading/two{
+	name = "NT CentCom SupplyPod Bay #2"
+	})
 "lQ" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -3994,7 +4194,9 @@
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "lR" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/machinery/door/airlock/centcom{
@@ -4002,7 +4204,9 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "lS" = (
 /obj/machinery/vending/games,
 /turf/open/floor/holofloor/carpet,
@@ -4033,7 +4237,9 @@
 "lZ" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/four)
+/area/centcom/supplypod/loading/four{
+	name = "NT CentCom SupplyPod Bay #4"
+	})
 "ma" = (
 /obj/structure/target_stake,
 /obj/machinery/magnetic_module,
@@ -4049,7 +4255,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/one)
+/area/centcom/supplypod/loading/one{
+	name = "NT CentCom SupplyPod Bay #1"
+	})
 "md" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/spray/cleaner{
@@ -4084,7 +4292,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "mf" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -4097,7 +4307,9 @@
 "mi" = (
 /obj/structure/chair/stool,
 /turf/open/floor/plasteel/dark,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "mj" = (
 /turf/closed/dz/lab,
 /area/trading_outpost)
@@ -4115,7 +4327,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ml" = (
 /obj/machinery/door/veryblastdoor/trader{
 	id = "trador_ex"
@@ -4125,7 +4339,9 @@
 "mm" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "mq" = (
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/holofloor/hyperspace,
@@ -4136,10 +4352,14 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/three)
+/area/centcom/supplypod/loading/three{
+	name = "NT CentCom SupplyPod Bay #3"
+	})
 "ms" = (
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/one)
+/area/centcom/supplypod/loading/one{
+	name = "NT CentCom SupplyPod Bay #1"
+	})
 "mw" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -4159,7 +4379,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "mx" = (
 /obj/machinery/vending/boozeomat,
 /turf/closed/indestructible{
@@ -4217,7 +4439,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "mF" = (
 /obj/machinery/chem_dispenser/drinks,
 /turf/closed/indestructible{
@@ -4242,7 +4466,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "mI" = (
 /obj/structure/window/reinforced,
 /turf/open/floor/holofloor/grass,
@@ -4250,7 +4476,9 @@
 "mJ" = (
 /obj/machinery/status_display/supply,
 /turf/closed/indestructible/riveted,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "mK" = (
 /obj/machinery/light{
 	dir = 8
@@ -4272,7 +4500,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "mM" = (
 /obj/machinery/door/window/westleft{
 	dir = 2
@@ -4287,7 +4517,9 @@
 "mO" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "mP" = (
 /turf/open/floor/holofloor/plating,
 /area/holodeck/rec_center/kobayashi)
@@ -4324,7 +4556,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "mX" = (
 /obj/structure/piano,
 /obj/machinery/light{
@@ -4374,7 +4608,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "nh" = (
 /obj/item/gavelblock,
 /obj/item/gavelhammer,
@@ -4403,7 +4639,9 @@
 "nn" = (
 /obj/structure/sign/warning/nosmoking,
 /turf/closed/indestructible/riveted,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "no" = (
 /obj/structure/chair{
 	dir = 8
@@ -4443,18 +4681,24 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/one)
+/area/centcom/supplypod/loading/one{
+	name = "NT CentCom SupplyPod Bay #1"
+	})
 "nv" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/one)
+/area/centcom/supplypod/loading/one{
+	name = "NT CentCom SupplyPod Bay #1"
+	})
 "nw" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Supply";
 	req_access_txt = "106"
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/supplypod)
+/area/centcom/supplypod{
+	name = "NT CentCom Supplypod Facility"
+	})
 "nx" = (
 /obj/structure/fluff/oldturret{
 	name = "LRD turret"
@@ -4492,11 +4736,15 @@
 "nC" = (
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "nD" = (
 /obj/machinery/portable_atmospherics/canister/nitryl,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "nG" = (
 /obj/machinery/trading_beacon,
 /turf/open/floor/wood,
@@ -4535,7 +4783,9 @@
 "nM" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "nN" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 9
@@ -4601,7 +4851,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "nZ" = (
 /obj/item/weldingtool,
 /turf/open/floor/holofloor/plating,
@@ -4631,7 +4883,9 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/light,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "og" = (
 /obj/structure/toilet{
 	dir = 8
@@ -4646,10 +4900,14 @@
 	opacity = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "oh" = (
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "oi" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien20"
@@ -4697,7 +4955,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "or" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien24"
@@ -4729,7 +4989,9 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "ov" = (
 /obj/machinery/door/airlock/wood{
 	id_tag = "lmrestroom"
@@ -4760,7 +5022,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/four)
+/area/centcom/supplypod/loading/four{
+	name = "NT CentCom SupplyPod Bay #4"
+	})
 "oz" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -4780,15 +5044,21 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "oF" = (
 /obj/effect/landmark/start/nukeop_leader,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "oH" = (
 /obj/machinery/computer/mech_bay_power_console,
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "oJ" = (
 /obj/structure/table,
 /obj/item/paper,
@@ -4815,7 +5085,9 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "oP" = (
 /obj/structure/chair/stool/bar,
 /turf/open/floor/wood,
@@ -4845,7 +5117,9 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "oZ" = (
 /turf/open/floor/wood,
 /area/trading_outpost)
@@ -4855,7 +5129,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "pb" = (
 /obj/structure/chair/comfy/brown{
 	buildstackamount = 0;
@@ -4878,7 +5154,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "pf" = (
 /obj/machinery/light{
 	dir = 8
@@ -4896,7 +5174,9 @@
 /obj/structure/chair/office,
 /obj/effect/landmark/ert_spawn,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "ph" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -4904,7 +5184,9 @@
 	},
 /obj/item/kirbyplants/random,
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "pi" = (
 /turf/open/floor/plasteel/dark,
 /area/trading_outpost)
@@ -5015,7 +5297,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "pF" = (
 /obj/structure/chair{
 	dir = 1
@@ -5039,7 +5323,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/three)
+/area/centcom/supplypod/loading/three{
+	name = "NT CentCom SupplyPod Bay #3"
+	})
 "pL" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -5050,7 +5336,9 @@
 	dir = 1
 	},
 /turf/open/floor/plating/asteroid,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "pN" = (
 /obj/machinery/light{
 	dir = 4
@@ -5086,14 +5374,18 @@
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "pT" = (
 /obj/effect/turf_decal/trimline/yellow/line,
 /turf/open/floor/plasteel/dark,
 /area/trading_outpost)
 "pU" = (
 /turf/closed/indestructible/riveted,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "pV" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 6
@@ -5135,7 +5427,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "qb" = (
 /obj/machinery/computer/secure_data{
 	dir = 4
@@ -5151,7 +5445,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "qc" = (
 /obj/structure/chair{
 	dir = 1
@@ -5198,7 +5494,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "qi" = (
 /obj/structure/chair/wood/wings{
 	dir = 3
@@ -5255,7 +5553,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "qs" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 1
@@ -5432,14 +5732,18 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/one)
+/area/centcom/supplypod/loading/one{
+	name = "NT CentCom SupplyPod Bay #1"
+	})
 "qY" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Supply";
 	req_access_txt = "106"
 	},
 /turf/closed/indestructible/riveted,
-/area/centcom/supplypod)
+/area/centcom/supplypod{
+	name = "NT CentCom Supplypod Facility"
+	})
 "qZ" = (
 /obj/structure/table,
 /obj/structure/window/reinforced{
@@ -5493,7 +5797,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "rg" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -5515,7 +5821,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "rh" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
@@ -5565,7 +5873,9 @@
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/palebush,
 /turf/open/floor/plating/asteroid,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "rn" = (
 /obj/structure/table/wood,
 /obj/item/paper{
@@ -5607,7 +5917,9 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "rr" = (
 /obj/structure/chair/sofa/right{
 	dir = 8
@@ -5632,7 +5944,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "rt" = (
 /turf/closed/indestructible/fakedoor{
 	name = "Scarlet Dawn Access"
@@ -5653,13 +5967,17 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "rz" = (
 /obj/machinery/atmospherics/components/unary/portables_connector{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "rB" = (
 /obj/item/cardboard_cutout/adaptive{
 	icon_state = "cutout_viva";
@@ -5743,7 +6061,9 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "rL" = (
 /obj/structure/chair{
 	dir = 1
@@ -5759,7 +6079,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/four)
+/area/centcom/supplypod/loading/four{
+	name = "NT CentCom SupplyPod Bay #4"
+	})
 "rO" = (
 /obj/structure/flora/ausbushes/fernybush,
 /obj/structure/flora/ausbushes/ppflowers,
@@ -5831,7 +6153,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "rW" = (
 /obj/machinery/light,
 /turf/open/floor/wood,
@@ -5866,7 +6190,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "se" = (
 /obj/structure/bed/roller,
 /obj/machinery/iv_drip,
@@ -5877,7 +6203,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "sh" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
@@ -5949,7 +6277,9 @@
 	dir = 1
 	},
 /turf/open/floor/mech_bay_recharge_floor,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "su" = (
 /obj/structure/rack,
 /obj/item/clothing/under/trek/engsec,
@@ -5979,7 +6309,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "sy" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 1
@@ -5995,7 +6327,9 @@
 	dir = 5
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "sB" = (
 /obj/item/target,
 /obj/item/target/clown,
@@ -6022,7 +6356,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/four)
+/area/centcom/supplypod/loading/four{
+	name = "NT CentCom SupplyPod Bay #4"
+	})
 "sE" = (
 /obj/item/target,
 /obj/item/target/syndicate,
@@ -6063,7 +6399,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "sK" = (
 /obj/machinery/computer/arcade/battle,
 /turf/open/floor/wood,
@@ -6087,7 +6425,9 @@
 "sN" = (
 /obj/machinery/photocopier,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "sO" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien5"
@@ -6156,7 +6496,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "sW" = (
 /turf/closed/dz/lab{
 	icon_state = "labwall-r-l"
@@ -6177,7 +6519,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "sY" = (
 /obj/structure/table/reinforced,
 /obj/item/clipboard,
@@ -6224,7 +6568,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "th" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 32
@@ -6237,7 +6583,9 @@
 	},
 /obj/effect/turf_decal/tile/brown,
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/three)
+/area/centcom/supplypod/loading/three{
+	name = "NT CentCom SupplyPod Bay #3"
+	})
 "tj" = (
 /turf/closed/dz/lab{
 	icon_state = "labwall-v-l"
@@ -6328,11 +6676,15 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "tw" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/plasteel/dark,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "ty" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/crate,
@@ -6438,7 +6790,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "tL" = (
 /obj/structure/fluff/oldturret{
 	name = "LRD turret"
@@ -6484,7 +6838,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "tU" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -6497,7 +6853,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "tV" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel,
@@ -6518,7 +6876,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "tX" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/crate{
@@ -6559,7 +6919,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "uc" = (
 /turf/closed/dz/lab{
 	icon_state = "labwall-d-l"
@@ -6572,7 +6934,9 @@
 "ue" = (
 /obj/machinery/portable_atmospherics/canister/nitrous_oxide,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "uf" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 1
@@ -6592,7 +6956,9 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ug" = (
 /obj/machinery/door/veryblastdoor/trader,
 /turf/open/floor/plasteel,
@@ -6611,7 +6977,9 @@
 /obj/item/soap/deluxe,
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/plasteel/white,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "ui" = (
 /obj/structure/mineral_door/paperframe{
 	name = "Arcade"
@@ -6648,7 +7016,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "un" = (
 /obj/structure/railing,
 /turf/open/floor/plasteel,
@@ -6693,7 +7063,9 @@
 /area/centcom/holding)
 "uv" = (
 /turf/closed/indestructible/opsglass,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "uA" = (
 /obj/machinery/card_button/trader{
 	pixel_y = 32
@@ -6773,7 +7145,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "uL" = (
 /obj/machinery/light{
 	dir = 4
@@ -6786,7 +7160,9 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "uN" = (
 /obj/structure/railing{
 	dir = 4
@@ -6839,7 +7215,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "uW" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/neutral{
@@ -6853,7 +7231,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "uX" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 1
@@ -6887,7 +7267,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "vb" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -6902,7 +7284,9 @@
 /area/centcom/holding)
 "vd" = (
 /turf/closed/indestructible/riveted,
-/area/ai_multicam_room)
+/area/ai_multicam_room{
+	name = "AI Multicam Room"
+	})
 "vf" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien17"
@@ -6979,7 +7363,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "vq" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -6994,7 +7380,9 @@
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "vs" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien22"
@@ -7018,7 +7406,9 @@
 	})
 "vv" = (
 /turf/open/ai_visible,
-/area/ai_multicam_room)
+/area/ai_multicam_room{
+	name = "AI Multicam Room"
+	})
 "vx" = (
 /obj/effect/turf_decal/caution/stand_clear,
 /turf/open/floor/plasteel,
@@ -7054,7 +7444,9 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "vC" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien17"
@@ -7084,7 +7476,9 @@
 	pixel_x = 24
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "vE" = (
 /obj/machinery/abductor/experiment{
 	team_number = 4
@@ -7120,7 +7514,9 @@
 	},
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "vL" = (
 /obj/machinery/door/window/eastright,
 /turf/open/floor/carpet/black,
@@ -7137,7 +7533,9 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "vN" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien18"
@@ -7209,7 +7607,9 @@
 	pixel_x = -2
 	},
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "vW" = (
 /obj/machinery/abductor/experiment{
 	team_number = 3
@@ -7248,7 +7648,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "wc" = (
 /obj/machinery/abductor/console{
 	team_number = 1
@@ -7294,7 +7696,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "wm" = (
 /obj/structure/closet/crate/freezer/blood,
 /turf/open/floor/wood,
@@ -7317,7 +7721,9 @@
 	})
 "wq" = (
 /turf/open/floor/circuit/green,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "wr" = (
 /obj/structure/closet/crate,
 /turf/open/floor/mineral/titanium/yellow,
@@ -7404,7 +7810,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "wF" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -7430,7 +7838,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "wH" = (
 /obj/structure/chair{
 	dir = 1
@@ -7589,7 +7999,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "xf" = (
 /obj/machinery/light{
 	dir = 1
@@ -7642,7 +8054,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "xq" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien13"
@@ -7665,7 +8079,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "xt" = (
 /obj/effect/landmark/abductor/scientist{
 	team_number = 3
@@ -7691,7 +8107,9 @@
 "xw" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/centcom/supplypod)
+/area/centcom/supplypod{
+	name = "NT CentCom Supplypod Facility"
+	})
 "xx" = (
 /obj/effect/landmark/abductor/agent,
 /turf/open/floor/plating/abductor,
@@ -7708,7 +8126,9 @@
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "xz" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 9
@@ -7730,7 +8150,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "xC" = (
 /obj/effect/landmark/abductor/agent{
 	team_number = 2
@@ -7769,7 +8191,9 @@
 	pixel_y = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "xG" = (
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
@@ -7801,7 +8225,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "xJ" = (
 /obj/structure/window/reinforced,
 /turf/open/floor/carpet/black,
@@ -7809,7 +8235,9 @@
 "xL" = (
 /obj/machinery/light,
 /turf/open/floor/plasteel/dark,
-/area/centcom/supplypod/pod_storage)
+/area/centcom/supplypod/pod_storage{
+	name = "NT CentCom Supplypod Storage"
+	})
 "xM" = (
 /turf/open/floor/partyhard/steel{
 	icon_state = "st-10"
@@ -7833,7 +8261,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "xP" = (
 /obj/structure/bookcase/random,
 /obj/machinery/light,
@@ -7848,7 +8278,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "xR" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -7857,7 +8289,9 @@
 /obj/structure/flora/ausbushes/genericbush,
 /obj/machinery/light,
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "xS" = (
 /obj/structure/table/reinforced,
 /obj/item/clipboard,
@@ -7874,7 +8308,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "xT" = (
 /obj/machinery/computer/prisoner/management{
 	dir = 1
@@ -7891,7 +8327,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "xU" = (
 /obj/structure/fluff/paper/stack,
 /turf/open/floor/partyhard/steel{
@@ -7904,7 +8342,9 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "xW" = (
 /turf/open/floor/partyhard/steel{
 	icon_state = "cx-9"
@@ -7923,7 +8363,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "yb" = (
 /obj/structure/fluff/paper/stack{
 	dir = 4
@@ -7986,7 +8428,9 @@
 "yl" = (
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "ym" = (
 /obj/structure/fluff/paper/stack{
 	dir = 10
@@ -8011,7 +8455,9 @@
 "yp" = (
 /obj/machinery/computer/card/centcom,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "ys" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien6"
@@ -8034,7 +8480,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "yv" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien7"
@@ -8107,13 +8555,17 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "yM" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "yQ" = (
 /obj/machinery/light{
 	dir = 4
@@ -8151,7 +8603,9 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "yW" = (
 /turf/open/floor/mineral/plastitanium/red,
 /area/centcom/evac{
@@ -8176,7 +8630,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "zc" = (
 /obj/machinery/door/window/northright{
 	dir = 4;
@@ -8199,7 +8655,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ze" = (
 /obj/structure/fluff/paper/stack{
 	dir = 6
@@ -8300,7 +8758,9 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "zp" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien20"
@@ -8314,7 +8774,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/four)
+/area/centcom/supplypod/loading/four{
+	name = "NT CentCom SupplyPod Bay #4"
+	})
 "zv" = (
 /obj/structure/rack,
 /obj/item/nullrod/scythe/vibro{
@@ -8330,7 +8792,9 @@
 /obj/effect/landmark/ert_spawn,
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "zx" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien3"
@@ -8382,7 +8846,9 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "zE" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -8394,7 +8860,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/two)
+/area/centcom/supplypod/loading/two{
+	name = "NT CentCom SupplyPod Bay #2"
+	})
 "zF" = (
 /obj/structure/chair{
 	dir = 4
@@ -8406,7 +8874,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "zH" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien5"
@@ -8418,7 +8888,9 @@
 /obj/machinery/vending/snack,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "zK" = (
 /obj/structure/fluff/paper/stack{
 	dir = 1
@@ -8454,7 +8926,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "zN" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -8472,7 +8946,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "zO" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/fans/tiny/invisible,
@@ -8488,7 +8964,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/ert)
+/area/centcom/supplypod/loading/ert{
+	name = "NT CentCom ERT Bay"
+	})
 "zT" = (
 /obj/item/toy/figure/syndie,
 /obj/effect/light_emitter{
@@ -8546,7 +9024,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Ae" = (
 /obj/structure/table/reinforced,
 /obj/item/clipboard,
@@ -8560,7 +9040,9 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/ert)
+/area/centcom/supplypod/loading/ert{
+	name = "NT CentCom ERT Bay"
+	})
 "Ag" = (
 /obj/structure/fluff/paper/stack{
 	dir = 8
@@ -8587,7 +9069,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/supplypod/pod_storage)
+/area/centcom/supplypod/pod_storage{
+	name = "NT CentCom Supplypod Storage"
+	})
 "Ak" = (
 /turf/open/floor/partyhard/steel{
 	icon_state = "cx-10"
@@ -8633,7 +9117,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ap" = (
 /obj/structure/fluff/paper/stack{
 	dir = 5
@@ -8645,7 +9131,9 @@
 "Aq" = (
 /obj/effect/landmark/ai_multicam_room,
 /turf/open/ai_visible,
-/area/ai_multicam_room)
+/area/ai_multicam_room{
+	name = "AI Multicam Room"
+	})
 "At" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -8660,13 +9148,17 @@
 /turf/open/floor/plasteel{
 	icon_state = "damaged3"
 	},
-/area/centcom/supplypod/loading/ert)
+/area/centcom/supplypod/loading/ert{
+	name = "NT CentCom ERT Bay"
+	})
 "Au" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Av" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -8702,12 +9194,16 @@
 	})
 "AC" = (
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/three)
+/area/centcom/supplypod/loading/three{
+	name = "NT CentCom SupplyPod Bay #3"
+	})
 "AD" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/shaker,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "AE" = (
 /obj/effect/turf_decal/arrows{
 	dir = 8
@@ -8716,7 +9212,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "AF" = (
 /obj/structure/table,
 /obj/item/storage/box/donkpockets,
@@ -8748,13 +9246,17 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "AJ" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "AK" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/centcom/evac{
@@ -8769,7 +9271,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/three)
+/area/centcom/supplypod/loading/three{
+	name = "NT CentCom SupplyPod Bay #3"
+	})
 "AM" = (
 /obj/machinery/door/airlock/titanium,
 /obj/machinery/door/firedoor,
@@ -8828,7 +9332,9 @@
 	dir = 9
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "AT" = (
 /obj/machinery/vending/modularpc,
 /turf/open/floor/holofloor/carpet,
@@ -8849,7 +9355,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "AW" = (
 /obj/effect/turf_decal/caution/stand_clear,
 /turf/open/floor/mineral/titanium,
@@ -8862,11 +9370,15 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "AY" = (
 /obj/machinery/portable_atmospherics/canister/bz,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "AZ" = (
 /obj/docking_port/stationary{
 	dir = 4;
@@ -8963,13 +9475,17 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Bk" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Bl" = (
 /obj/structure/bed,
 /turf/open/floor/mineral/titanium/blue,
@@ -9031,7 +9547,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Bs" = (
 /obj/structure/closet/emcloset,
 /turf/open/floor/mineral/titanium/white,
@@ -9058,7 +9576,9 @@
 "Bw" = (
 /obj/machinery/portable_atmospherics/canister/tritium,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "By" = (
 /obj/effect/turf_decal/trimline/white/line{
 	dir = 10
@@ -9111,7 +9631,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "BE" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien23"
@@ -9129,7 +9651,9 @@
 	width = 7
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "BH" = (
 /obj/structure/table,
 /obj/item/storage/box/donkpockets,
@@ -9196,7 +9720,9 @@
 /obj/machinery/door/window/southright,
 /obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "BV" = (
 /obj/structure/table/wood/fancy/royalblue,
 /obj/item/storage/belt/utility,
@@ -9206,7 +9732,9 @@
 /obj/item/wrench,
 /obj/item/wrench,
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "BW" = (
 /obj/machinery/light{
 	dir = 1
@@ -9214,7 +9742,9 @@
 /turf/open/floor/partyhard/steel{
 	icon_state = "st-12"
 	},
-/area/centcom/prison)
+/area/centcom/prison{
+	name = "NT CentCom Admin Prison"
+	})
 "BX" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/centcom{
@@ -9222,17 +9752,23 @@
 	req_access_txt = "106"
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "BY" = (
 /obj/structure/window/reinforced{
 	dir = 4
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "BZ" = (
 /obj/structure/holosign/barrier/atmos,
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Ca" = (
 /obj/machinery/light{
 	dir = 1
@@ -9244,7 +9780,9 @@
 	dir = 4
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Cc" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -9253,7 +9791,9 @@
 	dir = 4
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Ce" = (
 /obj/machinery/light{
 	dir = 4
@@ -9262,7 +9802,9 @@
 	pixel_x = 24
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Cg" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 6
@@ -9274,14 +9816,18 @@
 	dir = 4
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Ch" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 4
 	},
 /obj/structure/holosign/barrier/atmos,
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Ci" = (
 /obj/machinery/light{
 	dir = 1
@@ -9296,7 +9842,9 @@
 	dir = 4
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Cl" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -9305,15 +9853,21 @@
 	dir = 10
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Cm" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer/on,
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Cn" = (
 /obj/machinery/portable_atmospherics/canister/pluoxium,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Co" = (
 /turf/open/space/basic,
 /area/space)
@@ -9325,13 +9879,17 @@
 /turf/open/floor/partyhard/steel{
 	icon_state = "st-12"
 	},
-/area/centcom/prison)
+/area/centcom/prison{
+	name = "NT CentCom Admin Prison"
+	})
 "Cr" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Cs" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -9340,16 +9898,22 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Cx" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Cz" = (
 /obj/machinery/power/spaceminer/tier4,
 /obj/machinery/door/window/northleft,
 /turf/open/floor/circuit/red,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "CA" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Shuttle Control Office";
@@ -9375,18 +9939,24 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "CC" = (
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "CD" = (
 /obj/machinery/firealarm{
 	dir = 1;
 	pixel_y = -24
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/supplypod/pod_storage)
+/area/centcom/supplypod/pod_storage{
+	name = "NT CentCom Supplypod Storage"
+	})
 "CE" = (
 /obj/machinery/firealarm{
 	dir = 8;
@@ -9396,14 +9966,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "CF" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "CH" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien19"
@@ -9415,7 +9989,9 @@
 /obj/machinery/power/spaceminer/tier3,
 /obj/machinery/door/window/northleft,
 /turf/open/floor/circuit/red,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "CK" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -9423,25 +9999,33 @@
 /obj/effect/landmark/ert_spawn,
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "CN" = (
 /obj/machinery/door/poddoor/ert,
 /obj/effect/turf_decal/delivery,
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "CO" = (
 /obj/machinery/atmospherics/pipe/manifold/general/visible{
 	dir = 8
 	},
 /obj/machinery/meter,
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "CR" = (
 /obj/machinery/atmospherics/pipe/manifold/general/visible,
 /obj/machinery/meter,
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "CS" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4;
@@ -9450,7 +10034,9 @@
 	pressure_checks = 0
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "CT" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -9463,14 +10049,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "CU" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 4
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "CV" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom"
@@ -9482,14 +10072,18 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "CW" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 4
 	},
 /obj/machinery/meter,
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "CX" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -9507,7 +10101,9 @@
 	dir = 9
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "CZ" = (
 /obj/structure/bed,
 /obj/item/bedsheet/black,
@@ -9522,7 +10118,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Da" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
@@ -9531,16 +10129,22 @@
 	name = "server vent"
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Db" = (
 /obj/machinery/suit_storage_unit/ce,
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Dc" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/warning/testchamber,
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "De" = (
 /obj/machinery/light{
 	dir = 1
@@ -9587,7 +10191,9 @@
 	pixel_x = -22
 	},
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Di" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -9597,7 +10203,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Dj" = (
 /obj/item/storage/firstaid/toxin,
 /obj/item/storage/firstaid/o2{
@@ -9616,7 +10224,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Dk" = (
 /obj/structure/bed/abductor,
 /turf/open/floor/plating/abductor,
@@ -9636,7 +10246,9 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Dm" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -9652,7 +10264,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Dp" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -9672,7 +10286,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Dr" = (
 /obj/structure/flora/bush,
 /turf/open/floor/plating/asteroid/snow/airless,
@@ -9695,11 +10311,15 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Dt" = (
 /obj/machinery/mech_bay_recharge_port,
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Du" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -9712,7 +10332,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Dw" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -9725,7 +10347,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Dy" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -9745,7 +10369,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Dz" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -9758,7 +10384,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "DB" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien14"
@@ -9789,7 +10417,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "DF" = (
 /obj/structure/closet/secure_closet/security,
 /obj/item/storage/belt/security/full,
@@ -9810,7 +10440,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "DG" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien4"
@@ -9880,18 +10512,24 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "DP" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "DQ" = (
 /obj/machinery/portable_atmospherics/canister/freon,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "DR" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -9902,7 +10540,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "DS" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -9929,7 +10569,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "DU" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -9939,7 +10581,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "DV" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -9955,7 +10599,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "DX" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/centcom{
@@ -9969,7 +10615,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "DY" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -9979,7 +10627,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Ea" = (
 /obj/structure/plasticflaps,
 /obj/effect/turf_decal/stripes/line,
@@ -10019,7 +10669,9 @@
 	req_access_txt = ""
 	},
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Ef" = (
 /obj/effect/turf_decal/stripes/end,
 /obj/machinery/conveyor/inverted{
@@ -10047,7 +10699,9 @@
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Ei" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -10071,7 +10725,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "El" = (
 /turf/closed/indestructible/fakeglass{
 	color = "#008000"
@@ -10082,7 +10738,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "En" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -10095,7 +10753,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Eo" = (
 /turf/closed/indestructible/abductor,
 /area/abductor_ship{
@@ -10123,7 +10783,9 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/ert)
+/area/centcom/supplypod/loading/ert{
+	name = "NT CentCom ERT Bay"
+	})
 "Es" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
@@ -10133,7 +10795,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Eu" = (
 /obj/structure/window/reinforced,
 /obj/structure/shuttle/engine/heater{
@@ -10169,7 +10833,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Ex" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
@@ -10208,7 +10874,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "EF" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -10217,7 +10885,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/four)
+/area/centcom/supplypod/loading/four{
+	name = "NT CentCom SupplyPod Bay #4"
+	})
 "EG" = (
 /obj/machinery/button/door/indestructible{
 	id = "XCCQMLoaddoor";
@@ -10254,7 +10924,9 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "EN" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -10286,13 +10958,17 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "ER" = (
 /obj/machinery/iv_drip,
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "ES" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -10302,7 +10978,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "ET" = (
 /obj/machinery/light{
 	dir = 8
@@ -10330,7 +11008,9 @@
 	name = "Backup Emergency Escape Shuttle"
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "EY" = (
 /obj/docking_port/stationary{
 	dir = 8;
@@ -10372,7 +11052,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Fd" = (
 /obj/structure/showcase{
 	desc = "A strange machine supposedly from another world. The Wizard Federation has been meddling with it for years.";
@@ -10425,10 +11107,14 @@
 	},
 /obj/effect/turf_decal/tile/brown,
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/two)
+/area/centcom/supplypod/loading/two{
+	name = "NT CentCom SupplyPod Bay #2"
+	})
 "Fj" = (
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Fk" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
@@ -10442,7 +11128,9 @@
 	icon_state = "plant-21"
 	},
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Fn" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
@@ -10471,7 +11159,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Fp" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/grassybush,
@@ -10481,7 +11171,9 @@
 	icon_state = "asteroid8";
 	name = "sand"
 	},
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Fr" = (
 /turf/open/floor/mineral/titanium/blue,
 /area/centcom/evac{
@@ -10507,7 +11199,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Fv" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien17"
@@ -10533,13 +11227,17 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "FC" = (
 /obj/machinery/reagent_material_manipulator,
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "FD" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -10561,7 +11259,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "FF" = (
 /obj/machinery/conveyor_switch/oneway{
 	dir = 8;
@@ -10595,7 +11295,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "FI" = (
 /turf/open/floor/carpet,
 /area/wizard_station)
@@ -10630,7 +11332,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "FR" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -10640,7 +11344,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "FS" = (
 /turf/open/floor/wood,
 /area/wizard_station)
@@ -10662,7 +11368,9 @@
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "FX" = (
 /obj/structure/table/abductor,
 /obj/item/surgicaldrill/alien,
@@ -10679,11 +11387,15 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "FZ" = (
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Gb" = (
 /obj/structure/table/wood/poker,
 /obj/item/toy/figure/wizard,
@@ -10712,7 +11424,9 @@
 "Gf" = (
 /obj/effect/baseturf_helper/asteroid/snow,
 /turf/closed/indestructible/syndicate,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Gg" = (
 /obj/machinery/light{
 	dir = 4
@@ -10730,7 +11444,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Gi" = (
 /turf/closed/indestructible/abductor,
 /area/abductor_ship{
@@ -10757,7 +11473,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Gm" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -10766,7 +11484,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Gn" = (
 /obj/machinery/computer/camera_advanced{
 	dir = 4
@@ -10782,7 +11502,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Gr" = (
 /obj/structure/chair/wood/wings{
 	dir = 8
@@ -10804,7 +11526,9 @@
 	icon_state = "asteroid5";
 	name = "plating"
 	},
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Gv" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -10843,7 +11567,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "GB" = (
 /obj/structure/bookcase/random,
 /obj/machinery/light{
@@ -10860,7 +11586,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "GD" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -10870,7 +11598,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "GE" = (
 /obj/item/clipboard,
 /obj/item/folder/red,
@@ -10881,7 +11611,9 @@
 /obj/item/stamp,
 /obj/structure/table/reinforced,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "GF" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien10"
@@ -10897,7 +11629,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "GI" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -10910,7 +11644,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "GJ" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/brown,
@@ -11082,7 +11818,9 @@
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/warning/testchamber,
 /turf/open/floor/plating,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Hk" = (
 /turf/closed/wall/mineral/titanium,
 /area/centcom/evac{
@@ -11125,7 +11863,9 @@
 /area/space)
 "Ht" = (
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Hu" = (
 /obj/structure/fans/tiny/invisible,
 /obj/effect/forcefield{
@@ -11148,7 +11888,9 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Hy" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -11157,7 +11899,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/four)
+/area/centcom/supplypod/loading/four{
+	name = "NT CentCom SupplyPod Bay #4"
+	})
 "HA" = (
 /obj/structure/noticeboard{
 	dir = 8;
@@ -11185,7 +11929,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "HD" = (
 /obj/machinery/computer/crew{
 	dir = 1
@@ -11201,7 +11947,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "HE" = (
 /obj/effect/turf_decal/stripes/end{
 	dir = 1
@@ -11227,7 +11975,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "HG" = (
 /obj/structure/chair,
 /obj/effect/turf_decal/tile/green{
@@ -11237,7 +11987,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "HH" = (
 /obj/structure/chair/wood/wings,
 /turf/open/floor/engine/cult,
@@ -11287,7 +12039,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "HL" = (
 /obj/item/storage/firstaid/regular,
 /obj/structure/table,
@@ -11299,7 +12053,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "HM" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -11317,7 +12073,9 @@
 	},
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "HP" = (
 /obj/structure/table/wood,
 /obj/item/retractor,
@@ -11349,7 +12107,9 @@
 "HS" = (
 /obj/machinery/shuttle_manipulator,
 /turf/open/floor/circuit/green,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "HT" = (
 /obj/structure/table/wood,
 /obj/item/clothing/suit/wizrobe/magusblue,
@@ -11390,7 +12150,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "HX" = (
 /obj/structure/chair{
 	dir = 8
@@ -11403,7 +12165,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "HY" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/decal/cleanable/blood/gibs/body,
@@ -11472,7 +12236,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Ig" = (
 /obj/machinery/light{
 	dir = 4
@@ -11482,7 +12248,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Ii" = (
 /obj/structure/destructible/cult/tome,
 /turf/open/floor/engine/cult,
@@ -11507,7 +12275,9 @@
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Im" = (
 /obj/structure/table/reinforced,
 /obj/item/book/manual/wiki/security_space_law,
@@ -11523,7 +12293,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "In" = (
 /obj/structure/table/reinforced,
 /obj/item/clipboard,
@@ -11539,7 +12311,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Io" = (
 /obj/item/reagent_containers/food/snacks/meat/slab/corgi,
 /turf/open/floor/grass,
@@ -11569,7 +12343,9 @@
 	pixel_x = -23
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Ir" = (
 /obj/structure/bookcase/random/reference,
 /turf/open/floor/engine/cult,
@@ -11595,21 +12371,27 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Iu" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/green,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Iv" = (
 /obj/machinery/computer/shuttle/mining,
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Iw" = (
 /obj/item/clothing/shoes/sandal/marisa,
 /obj/item/clothing/suit/wizrobe/marisa,
@@ -11631,12 +12413,16 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Iz" = (
 /obj/machinery/vending/cola,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "IA" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
@@ -11649,7 +12435,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ID" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/sheet/metal/fifty,
@@ -11667,7 +12455,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "IE" = (
 /obj/effect/landmark/start/wizard,
 /turf/open/floor/engine/cult,
@@ -11690,7 +12480,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "IG" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -11717,7 +12509,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "IL" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp,
@@ -11729,11 +12523,15 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "IM" = (
 /obj/machinery/computer/communications,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "IN" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -11754,7 +12552,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "IO" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/security/wooden_tv,
@@ -11773,7 +12573,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "IR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/filingcabinet/chestdrawer,
@@ -11852,7 +12654,9 @@
 	pixel_y = 24
 	},
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Jf" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -11864,7 +12668,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Jg" = (
 /obj/machinery/vending/sustenance,
 /turf/open/floor/holofloor/carpet,
@@ -11878,7 +12684,9 @@
 /obj/item/paper/pamphlet/centcom/visitor_info,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Ji" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21";
@@ -11890,7 +12698,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Jj" = (
 /obj/structure/table/wood,
 /obj/item/clipboard,
@@ -11901,7 +12711,9 @@
 	},
 /obj/item/stamp,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Jk" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien2"
@@ -11924,7 +12736,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Jm" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -11939,13 +12753,17 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Jn" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Jo" = (
 /obj/structure/chair/comfy/black{
 	dir = 4
@@ -11954,7 +12772,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Jq" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
@@ -11982,25 +12802,33 @@
 	dir = 10
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Jt" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ju" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
 /obj/item/pen/fourcolor,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Jv" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/security/wooden_tv,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Jw" = (
 /obj/machinery/light{
 	dir = 1
@@ -12012,7 +12840,9 @@
 	pixel_x = -24
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Jy" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -12034,7 +12864,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Jz" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/yellow,
@@ -12060,7 +12892,9 @@
 /obj/structure/table,
 /obj/item/paper/pamphlet/centcom/visitor_info,
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "JB" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -12107,7 +12941,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "JF" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -12126,7 +12962,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "JG" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -12145,7 +12983,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "JH" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/door/poddoor/shuttledock{
@@ -12179,7 +13019,9 @@
 	pixel_x = -24
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "JJ" = (
 /obj/structure/table/reinforced,
 /obj/item/cartridge/quartermaster{
@@ -12205,7 +13047,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/white,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "JL" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
@@ -12225,7 +13069,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "JN" = (
 /obj/structure/filingcabinet/filingcabinet,
 /obj/effect/turf_decal/tile/neutral{
@@ -12319,25 +13165,33 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "JZ" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/donut_box,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ka" = (
 /obj/effect/turf_decal/tile/green,
 /obj/effect/turf_decal/tile/green{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Kb" = (
 /obj/machinery/atmospherics/components/binary/volume_pump{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Kc" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -12350,7 +13204,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Ke" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -12362,7 +13218,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Kf" = (
 /obj/machinery/door/airlock{
 	icon = 'icons/obj/doors/airlocks/station/uranium.dmi';
@@ -12406,7 +13264,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Km" = (
 /obj/structure/sign/map/left{
 	pixel_y = -32
@@ -12416,7 +13276,9 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Ko" = (
 /obj/item/clothing/suit/wizrobe/black,
 /obj/item/clothing/head/wizard/black,
@@ -12429,7 +13291,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/freezer,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Kr" = (
 /obj/machinery/computer/secure_data{
 	dir = 1
@@ -12445,7 +13309,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Ks" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-22"
@@ -12454,11 +13320,15 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Kt" = (
 /obj/effect/turf_decal/tile/green,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Kv" = (
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
@@ -12475,7 +13345,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Ky" = (
 /obj/structure/table/wood,
 /obj/item/dice/d20,
@@ -12494,7 +13366,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/three)
+/area/centcom/supplypod/loading/three{
+	name = "NT CentCom SupplyPod Bay #3"
+	})
 "KF" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
@@ -12512,7 +13386,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "KG" = (
 /obj/machinery/light{
 	dir = 8
@@ -12521,7 +13397,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "KH" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Security";
@@ -12532,12 +13410,16 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "KJ" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/light,
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "KL" = (
 /obj/structure/urinal{
 	pixel_y = 28
@@ -12549,7 +13431,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "KN" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -12567,7 +13451,9 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "KO" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien21"
@@ -12591,7 +13477,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "KR" = (
 /obj/structure/mirror/magic{
 	pixel_y = 28
@@ -12686,7 +13574,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/ert)
+/area/centcom/supplypod/loading/ert{
+	name = "NT CentCom ERT Bay"
+	})
 "Lg" = (
 /obj/structure/table/wood,
 /obj/item/storage/bag/tray,
@@ -12754,7 +13644,9 @@
 	pixel_y = -24
 	},
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Lu" = (
 /obj/structure/destructible/cult/forge{
 	desc = "An engine used in powering the wizard's ship";
@@ -12788,7 +13680,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Lz" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Security";
@@ -12815,7 +13709,9 @@
 /obj/structure/chair/comfy/black,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "LC" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/open/space/basic,
@@ -12835,7 +13731,9 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "LH" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -12845,7 +13743,9 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "LI" = (
 /obj/structure/sign/nanotrasen,
 /turf/closed/indestructible/fakeglass,
@@ -12857,7 +13757,9 @@
 	},
 /obj/effect/spawner/xmastree,
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "LK" = (
 /obj/machinery/sleeper{
 	dir = 8
@@ -12866,7 +13768,9 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "LL" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom"
@@ -12874,7 +13778,9 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "LM" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/green{
@@ -12883,7 +13789,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "LN" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/centcom{
@@ -12896,24 +13804,32 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "LO" = (
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "LP" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "LQ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "LR" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -12943,7 +13859,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "LU" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -12956,7 +13874,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "LV" = (
 /turf/closed/indestructible/rock/snow,
 /area/syndicate_mothership)
@@ -12967,14 +13887,18 @@
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
 /obj/structure/cable,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "LY" = (
 /obj/machinery/computer/shuttle/labor,
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ma" = (
 /obj/machinery/status_display/evac,
 /turf/closed/indestructible/riveted,
@@ -12987,7 +13911,9 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Mc" = (
 /obj/machinery/light{
 	dir = 1
@@ -13007,7 +13933,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Md" = (
 /obj/structure/filingcabinet/filingcabinet,
 /obj/effect/turf_decal/tile/neutral{
@@ -13021,7 +13949,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Me" = (
 /obj/machinery/airalarm{
 	dir = 8;
@@ -13039,7 +13969,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Mf" = (
 /obj/structure/closet/abductor,
 /obj/item/storage/box/alienhandcuffs,
@@ -13055,7 +13987,9 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Mi" = (
 /turf/open/floor/plating/asteroid/snow/airless,
 /area/syndicate_mothership)
@@ -13073,11 +14007,15 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Mk" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ml" = (
 /obj/structure/flora/tree/pine,
 /turf/open/floor/plating/asteroid/snow/airless,
@@ -13091,7 +14029,9 @@
 	pixel_y = 28
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Mn" = (
 /obj/machinery/power/apc{
 	dir = 8;
@@ -13116,7 +14056,9 @@
 /obj/item/screwdriver/power,
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Mo" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien9"
@@ -13133,7 +14075,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Mt" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt,
@@ -13144,7 +14088,9 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Mu" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -13161,15 +14107,21 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Mw" = (
 /obj/machinery/suit_storage_unit/ce,
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Mx" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "My" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/suit/space/hardsuit/deathsquad{
@@ -13180,16 +14132,22 @@
 /obj/item/clothing/mask/gas/sechailer/swat,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Mz" = (
 /obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "MA" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/structure/window/reinforced,
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "MC" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/handcuffs,
@@ -13201,7 +14159,9 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "ME" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -13218,7 +14178,9 @@
 	},
 /obj/machinery/meter,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "MF" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/grassybush,
@@ -13243,7 +14205,9 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "MK" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -13252,7 +14216,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "MM" = (
 /obj/structure/fans/tiny,
 /obj/effect/turf_decal/tile/neutral{
@@ -13288,14 +14254,18 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "MR" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/brown,
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/two)
+/area/centcom/supplypod/loading/two{
+	name = "NT CentCom SupplyPod Bay #2"
+	})
 "MS" = (
 /obj/effect/light_emitter{
 	set_cap = 1;
@@ -13315,7 +14285,9 @@
 	},
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "MX" = (
 /obj/machinery/abductor/gland_dispenser,
 /turf/open/floor/plating/abductor,
@@ -13332,13 +14304,17 @@
 	dir = 8
 	},
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Nc" = (
 /obj/structure/sign/warning/coldtemp{
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Nh" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -13350,7 +14326,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/one)
+/area/centcom/supplypod/loading/one{
+	name = "NT CentCom SupplyPod Bay #1"
+	})
 "Ni" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien11"
@@ -13363,10 +14341,14 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Nk" = (
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Nm" = (
 /obj/structure/flora/grass/brown,
 /turf/open/floor/plating/asteroid/snow/airless,
@@ -13374,17 +14356,23 @@
 "Nn" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
-/area/space/nearstation)
+/area/space/nearstation{
+	name = "Area near NT CentCom"
+	})
 "No" = (
 /obj/structure/lattice,
 /obj/structure/grille,
 /turf/open/space/basic,
-/area/space/nearstation)
+/area/space/nearstation{
+	name = "Area near NT CentCom"
+	})
 "Ns" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Nt" = (
 /obj/structure/table/reinforced,
 /obj/item/wrench,
@@ -13401,7 +14389,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Nu" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 1
@@ -13410,7 +14400,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Nv" = (
 /obj/item/storage/box/ids{
 	pixel_x = 3;
@@ -13435,13 +14427,17 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Nw" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Nx" = (
 /obj/machinery/vending/cola,
 /obj/effect/turf_decal/tile/bar,
@@ -13449,11 +14445,15 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Nz" = (
 /obj/structure/sign/warning/coldtemp,
 /turf/closed/indestructible/riveted,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "NA" = (
 /obj/machinery/computer/shuttle/ferry{
 	dir = 4
@@ -13462,7 +14462,9 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "ND" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 1
@@ -13472,7 +14474,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "NE" = (
 /obj/structure/filingcabinet/security,
 /obj/effect/turf_decal/tile/neutral{
@@ -13486,19 +14490,25 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "NI" = (
 /obj/structure/chair/office,
 /obj/effect/turf_decal/tile/green{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "NJ" = (
 /obj/machinery/door/firedoor,
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "NK" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien7"
@@ -13521,7 +14531,9 @@
 /obj/structure/table/wood,
 /obj/item/storage/pill_bottle/dice,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "NN" = (
 /obj/item/gun/energy/pulse/carbine/loyalpin,
 /obj/item/flashlight/seclite,
@@ -13534,7 +14546,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "NP" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -13554,7 +14568,9 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "NU" = (
 /obj/structure/chair/office{
 	dir = 8
@@ -13569,17 +14585,23 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "NV" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/warning/coldtemp,
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "NW" = (
 /obj/machinery/power/spaceminer,
 /obj/machinery/door/window/northleft,
 /turf/open/floor/circuit/red,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "NX" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
@@ -13593,7 +14615,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "NY" = (
 /obj/machinery/light/small,
 /obj/structure/fans/tiny,
@@ -13601,7 +14625,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "NZ" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/mechanical,
@@ -13610,12 +14636,16 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Oa" = (
 /obj/structure/grille,
 /obj/structure/lattice,
 /turf/open/space/basic,
-/area/space/nearstation)
+/area/space/nearstation{
+	name = "Area near NT CentCom"
+	})
 "Ob" = (
 /obj/structure/sign/warning/securearea{
 	desc = "A warning sign which reads 'SERVER ROOM'.";
@@ -13626,11 +14656,15 @@
 	dir = 9
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Oc" = (
 /obj/structure/sign/warning/securearea,
 /turf/closed/indestructible/riveted,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Od" = (
 /obj/item/soap/syndie,
 /obj/structure/mopbucket,
@@ -13638,7 +14672,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Oe" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -13647,7 +14683,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Of" = (
 /obj/item/clipboard,
 /obj/structure/table/reinforced,
@@ -13671,7 +14709,9 @@
 	pixel_y = 12
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Og" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Administrative Storage";
@@ -13685,7 +14725,9 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Oh" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -13703,7 +14745,9 @@
 /obj/machinery/meter,
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Oi" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -13716,7 +14760,9 @@
 	},
 /obj/machinery/door/poddoor/shutters/indestructible,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Oj" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -13732,7 +14778,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ok" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/centcom{
@@ -13746,7 +14794,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ol" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
@@ -13762,7 +14812,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Om" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Equipment Room";
@@ -13773,7 +14825,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Oo" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Security";
@@ -13794,11 +14848,15 @@
 	req_access_txt = "106"
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Or" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/plasteel/freezer,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Os" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
@@ -13813,14 +14871,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Ou" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/one)
+/area/centcom/supplypod/loading/one{
+	name = "NT CentCom SupplyPod Bay #1"
+	})
 "Ov" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien2"
@@ -13840,7 +14902,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "OA" = (
 /obj/item/paper/fluff/stations/centcom/disk_memo,
 /obj/structure/noticeboard{
@@ -13851,7 +14915,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "OB" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -13864,7 +14930,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "OC" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on,
 /turf/open/floor/plasteel,
@@ -13880,14 +14948,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "OE" = (
 /obj/structure/chair,
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "OF" = (
 /obj/structure/closet/crate/bin,
 /obj/effect/turf_decal/tile/green{
@@ -13898,7 +14970,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "OG" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Supply";
@@ -13908,7 +14982,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "OH" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 4
@@ -13928,14 +15004,18 @@
 	pixel_y = 5
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "OK" = (
 /obj/structure/chair/office{
 	dir = 4
 	},
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "OL" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -13966,11 +15046,15 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "OQ" = (
 /obj/machinery/status_display/evac,
 /turf/closed/indestructible/riveted,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "OR" = (
 /obj/machinery/door/poddoor{
 	id = "XCCQMLoaddoor2";
@@ -14030,7 +15114,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Pb" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -14040,7 +15126,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/four)
+/area/centcom/supplypod/loading/four{
+	name = "NT CentCom SupplyPod Bay #4"
+	})
 "Pd" = (
 /obj/machinery/computer/communications{
 	dir = 1
@@ -14049,7 +15137,9 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Pe" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Shuttle Control Office";
@@ -14057,7 +15147,9 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Pf" = (
 /obj/machinery/firealarm{
 	dir = 1;
@@ -14078,7 +15170,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ph" = (
 /obj/item/storage/fancy/donut_box,
 /obj/structure/table/reinforced,
@@ -14094,7 +15188,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Pj" = (
 /obj/structure/chair/comfy/black{
 	dir = 1
@@ -14103,14 +15199,18 @@
 	pixel_x = -32
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Pk" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 5
 	},
 /obj/machinery/meter,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Pl" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien24"
@@ -14123,7 +15223,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Po" = (
 /obj/item/paper_bin,
 /obj/item/pen/fourcolor,
@@ -14145,7 +15247,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Pp" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -14160,7 +15264,9 @@
 	},
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Pq" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -14174,7 +15280,9 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Pr" = (
 /obj/item/radio{
 	pixel_x = 5;
@@ -14197,7 +15305,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Pt" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -14211,7 +15321,9 @@
 	},
 /obj/machinery/vending/cola,
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Pv" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -14225,7 +15337,9 @@
 	pixel_y = -24
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Pw" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Security";
@@ -14238,7 +15352,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Px" = (
 /obj/machinery/firealarm{
 	dir = 1;
@@ -14255,7 +15371,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "PE" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -14267,7 +15385,9 @@
 	dir = 1
 	},
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "PF" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -14278,7 +15398,9 @@
 	dir = 1
 	},
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "PG" = (
 /obj/item/surgical_drapes,
 /obj/item/paper/guides/antag/abductor,
@@ -14297,7 +15419,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/two)
+/area/centcom/supplypod/loading/two{
+	name = "NT CentCom SupplyPod Bay #2"
+	})
 "PL" = (
 /obj/structure/sign/warning/docking,
 /turf/closed/indestructible/riveted,
@@ -14318,7 +15442,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "PR" = (
 /obj/structure/chair/office,
 /obj/effect/turf_decal/tile/red,
@@ -14326,7 +15452,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "PS" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/light,
@@ -14341,7 +15469,9 @@
 	},
 /obj/machinery/vending/cigarette/syndicate,
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "PU" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -14349,7 +15479,9 @@
 /obj/effect/turf_decal/tile/brown,
 /obj/machinery/light,
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "PV" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -14363,7 +15495,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Qd" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -14374,7 +15508,9 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Qe" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -14386,7 +15522,9 @@
 	dir = 4
 	},
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Qg" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -14395,7 +15533,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Qh" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-22"
@@ -14411,7 +15551,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Qi" = (
 /obj/machinery/computer/secure_data{
 	dir = 8
@@ -14427,7 +15569,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Qj" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -14436,7 +15580,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Qm" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/plasteel,
@@ -14453,13 +15599,17 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Qp" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/ert)
+/area/centcom/supplypod/loading/ert{
+	name = "NT CentCom ERT Bay"
+	})
 "Qq" = (
 /obj/structure/bookcase/random,
 /obj/effect/turf_decal/tile/neutral{
@@ -14473,7 +15623,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Qt" = (
 /turf/closed/indestructible/riveted,
 /area/centcom/supply{
@@ -14488,7 +15640,9 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Qw" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -14501,7 +15655,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Qx" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -14531,7 +15687,9 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/floor/grass,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "QC" = (
 /obj/item/clipboard,
 /obj/item/folder/red,
@@ -14552,7 +15710,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "QD" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -14564,7 +15724,9 @@
 	icon_state = "asteroid5";
 	name = "plating"
 	},
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "QE" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -14580,11 +15742,15 @@
 /obj/machinery/door/window,
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "QF" = (
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "QG" = (
 /obj/machinery/vending/donksofttoyvendor,
 /turf/open/floor/holofloor/carpet,
@@ -14603,11 +15769,15 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "QJ" = (
 /obj/structure/sign/nanotrasen,
 /turf/closed/indestructible/riveted,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "QM" = (
 /obj/machinery/computer/security{
 	dir = 4
@@ -14623,7 +15793,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "QN" = (
 /obj/effect/light_emitter{
 	set_cap = 1;
@@ -14654,7 +15826,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "QS" = (
 /obj/machinery/computer/security{
 	dir = 8
@@ -14674,10 +15848,14 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "QT" = (
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "QU" = (
 /obj/structure/chair/office,
 /obj/effect/landmark/ert_spawn,
@@ -14693,7 +15871,9 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "QV" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien6"
@@ -14709,17 +15889,23 @@
 /obj/structure/flora/ausbushes/palebush,
 /obj/machinery/light,
 /turf/open/floor/plating/asteroid,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "QY" = (
 /obj/machinery/status_display/ai,
 /turf/closed/indestructible/riveted,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Ra" = (
 /obj/structure/urinal{
 	pixel_y = 28
 	},
 /turf/open/floor/plasteel/freezer,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Rd" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -14743,7 +15929,9 @@
 	dir = 1
 	},
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Rf" = (
 /obj/machinery/status_display/evac,
 /turf/closed/indestructible/riveted,
@@ -14756,7 +15944,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Rj" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -14766,12 +15956,16 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Rk" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Rm" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -14842,7 +16036,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Rv" = (
 /obj/structure/chair{
 	dir = 8
@@ -14868,7 +16064,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Rz" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -14889,14 +16087,18 @@
 	pixel_y = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "RA" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "RB" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 1
@@ -14915,10 +16117,14 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "RE" = (
 /turf/closed/indestructible/syndicate,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "RH" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/fancy/donut_box,
@@ -14933,13 +16139,17 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "RI" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "RJ" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -14949,10 +16159,14 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/three)
+/area/centcom/supplypod/loading/three{
+	name = "NT CentCom SupplyPod Bay #3"
+	})
 "RL" = (
 /turf/open/floor/plasteel/freezer,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "RN" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -14992,7 +16206,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "RR" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/directions/engineering{
@@ -15001,7 +16217,9 @@
 	name = "WARNING: BLAST DOORS"
 	},
 /turf/open/floor/plating,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "RS" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -15020,7 +16238,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "RU" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin,
@@ -15040,7 +16260,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "RV" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-22"
@@ -15056,7 +16278,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "RW" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/light_switch{
@@ -15073,7 +16297,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "RX" = (
 /obj/machinery/button/door/indestructible{
 	id = "XCCFerry";
@@ -15085,13 +16311,17 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "RY" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "RZ" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien15"
@@ -15126,7 +16356,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Sb" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/red{
@@ -15149,7 +16381,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Sc" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Security";
@@ -15158,7 +16392,9 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Sd" = (
 /obj/structure/chair/comfy/black,
 /obj/machinery/computer/security/telescreen/entertainment{
@@ -15171,7 +16407,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Sf" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -15179,11 +16417,15 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/pointybush,
 /turf/open/floor/grass,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Sg" = (
 /obj/effect/turf_decal/loading_area,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Si" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom"
@@ -15195,7 +16437,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Sj" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -15203,7 +16447,9 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/genericbush,
 /turf/open/floor/grass,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Sl" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
@@ -15224,10 +16470,14 @@
 	req_access_txt = "106"
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Sm" = (
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/two)
+/area/centcom/supplypod/loading/two{
+	name = "NT CentCom SupplyPod Bay #2"
+	})
 "So" = (
 /obj/structure/flora/bush,
 /obj/effect/light_emitter{
@@ -15255,7 +16505,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "St" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -15264,33 +16516,45 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/pointybush,
 /turf/open/floor/grass,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Su" = (
 /obj/structure/fans/tiny,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Sv" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/ert)
+/area/centcom/supplypod/loading/ert{
+	name = "NT CentCom ERT Bay"
+	})
 "Sw" = (
 /obj/structure/mirror{
 	pixel_x = 28
 	},
 /obj/item/mop,
 /turf/open/floor/plasteel/freezer,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Sx" = (
 /obj/machinery/newscaster,
 /turf/closed/indestructible/riveted,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Sy" = (
 /obj/machinery/porta_turret/syndicate/energy/heavy,
 /turf/open/floor/plating/airless,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "SA" = (
 /obj/structure/chair{
 	dir = 8
@@ -15299,7 +16563,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "SB" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/directions/engineering{
@@ -15308,7 +16574,9 @@
 	name = "WARNING: BLAST DOORS"
 	},
 /turf/open/floor/plating,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "SC" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -15323,7 +16591,9 @@
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "SD" = (
 /obj/machinery/abductor/gland_dispenser,
 /turf/open/floor/plating/abductor,
@@ -15339,12 +16609,16 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "SJ" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "SK" = (
 /obj/structure/bed/abductor,
 /turf/open/floor/plating/abductor,
@@ -15354,16 +16628,22 @@
 "SN" = (
 /obj/structure/fluff/arc,
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "SO" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "SP" = (
 /obj/machinery/computer/security/telescreen/entertainment,
 /turf/closed/indestructible/riveted,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "SR" = (
 /obj/item/storage/firstaid/regular,
 /obj/structure/table,
@@ -15375,7 +16655,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ST" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien17"
@@ -15396,7 +16678,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "SW" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -15422,7 +16706,9 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "SY" = (
 /obj/structure/closet/abductor,
 /turf/open/floor/plating/abductor,
@@ -15441,7 +16727,9 @@
 "Ta" = (
 /obj/machinery/light,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Tc" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -15458,7 +16746,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/one)
+/area/centcom/supplypod/loading/one{
+	name = "NT CentCom SupplyPod Bay #1"
+	})
 "Tf" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -15486,7 +16776,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Th" = (
 /obj/structure/chair{
 	dir = 4
@@ -15495,7 +16787,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ti" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/directions/engineering{
@@ -15504,7 +16798,9 @@
 	name = "WARNING: EXTERNAL AIRLOCK"
 	},
 /turf/open/floor/plating,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Tm" = (
 /obj/structure/closet/emcloset,
 /obj/item/tank/internals/emergency_oxygen/engi,
@@ -15515,7 +16811,9 @@
 /obj/item/clothing/mask/gas,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "To" = (
 /obj/machinery/light{
 	dir = 1
@@ -15524,19 +16822,25 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Tp" = (
 /obj/structure/table/reinforced,
 /obj/item/book/manual/wiki/security_space_law,
 /obj/item/taperecorder,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Tq" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Tr" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -15549,7 +16853,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ts" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
@@ -15571,7 +16877,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Tt" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien5"
@@ -15584,7 +16892,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Tw" = (
 /obj/structure/chair/comfy/brown{
 	color = "#596479";
@@ -15594,7 +16904,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Tx" = (
 /obj/machinery/firealarm{
 	pixel_y = 24
@@ -15609,7 +16921,9 @@
 	dir = 5
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ty" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
 	dir = 1
@@ -15618,7 +16932,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Tz" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -15628,7 +16944,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/two)
+/area/centcom/supplypod/loading/two{
+	name = "NT CentCom SupplyPod Bay #2"
+	})
 "TC" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -15641,7 +16959,9 @@
 	},
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "TD" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien14"
@@ -15657,13 +16977,17 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "TF" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "TH" = (
 /obj/machinery/abductor/gland_dispenser,
 /turf/open/floor/plating/abductor,
@@ -15672,7 +16996,9 @@
 	})
 "TJ" = (
 /turf/open/space/basic,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "TK" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien16"
@@ -15699,13 +17025,17 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "TM" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "TN" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "XCCcustoms2";
@@ -15715,7 +17045,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "TO" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "XCCsec1";
@@ -15725,7 +17057,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "TP" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien19"
@@ -15749,7 +17083,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "TS" = (
 /obj/machinery/light{
 	dir = 4
@@ -15758,7 +17094,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "TX" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
@@ -15800,7 +17138,9 @@
 	})
 "Ud" = (
 /turf/closed/lifeweb/rock,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Ue" = (
 /obj/machinery/light{
 	dir = 8
@@ -15810,7 +17150,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Uf" = (
 /obj/structure/table/wood,
 /obj/item/paicard,
@@ -15819,7 +17161,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Ug" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -15837,12 +17181,16 @@
 	pixel_y = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Uh" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/structure/sign/warning/vacuum,
 /turf/open/floor/plating,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ui" = (
 /obj/item/clipboard,
 /obj/item/folder/red,
@@ -15866,7 +17214,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Uj" = (
 /obj/structure/mirror{
 	pixel_x = 28
@@ -15876,7 +17226,9 @@
 	pixel_x = 11
 	},
 /turf/open/floor/plasteel/freezer,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Ul" = (
 /obj/structure/closet/emcloset,
 /obj/item/tank/internals/emergency_oxygen/engi,
@@ -15888,18 +17240,24 @@
 /obj/effect/turf_decal/delivery,
 /obj/machinery/light,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Uq" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/four)
+/area/centcom/supplypod/loading/four{
+	name = "NT CentCom SupplyPod Bay #4"
+	})
 "Ur" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Uu" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
@@ -15917,7 +17275,9 @@
 "Uw" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/two)
+/area/centcom/supplypod/loading/two{
+	name = "NT CentCom SupplyPod Bay #2"
+	})
 "Ux" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien4"
@@ -15943,7 +17303,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "UB" = (
 /obj/structure/chair,
 /obj/effect/turf_decal/tile/red{
@@ -15953,11 +17315,15 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "UD" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "UF" = (
 /obj/structure/table/wood,
 /obj/item/folder/red,
@@ -15976,11 +17342,15 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "UH" = (
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "UI" = (
 /obj/structure/table/reinforced,
 /obj/item/book/manual/wiki/security_space_law,
@@ -15996,20 +17366,26 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "UJ" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "UK" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "UL" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Security";
@@ -16017,7 +17393,9 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "UN" = (
 /obj/structure/chair/stool,
 /obj/effect/landmark/start/nukeop,
@@ -16026,11 +17404,15 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "UP" = (
 /obj/machinery/portable_atmospherics/canister/stimulum,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "UQ" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -16047,7 +17429,9 @@
 	req_access_txt = "101"
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "UR" = (
 /obj/structure/table,
 /obj/item/paper_bin,
@@ -16063,7 +17447,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "US" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/grassybush,
@@ -16077,13 +17463,17 @@
 	icon_state = "asteroid8";
 	name = "sand"
 	},
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "UT" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/window/reinforced,
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "UV" = (
 /obj/item/clipboard,
 /obj/item/folder/red,
@@ -16104,19 +17494,25 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "UY" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/window/reinforced,
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "UZ" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/window/reinforced,
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Va" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien23"
@@ -16134,7 +17530,9 @@
 "Vc" = (
 /obj/structure/sign/warning/securearea,
 /turf/closed/indestructible/riveted,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ve" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien10"
@@ -16149,7 +17547,9 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Vh" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien3"
@@ -16188,7 +17588,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Vp" = (
 /obj/effect/light_emitter{
 	set_cap = 1;
@@ -16223,7 +17625,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Vt" = (
 /obj/structure/sign/map/right{
 	pixel_y = -32
@@ -16233,7 +17637,9 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Vu" = (
 /obj/structure/closet/abductor,
 /obj/item/storage/box/alienhandcuffs,
@@ -16272,7 +17678,9 @@
 	},
 /obj/machinery/vending/snack,
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Vz" = (
 /obj/structure/chair{
 	dir = 1
@@ -16282,7 +17690,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "VA" = (
 /obj/structure/table/wood,
 /obj/effect/turf_decal/tile/bar,
@@ -16293,7 +17703,9 @@
 	pixel_y = 3
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "VB" = (
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
@@ -16308,7 +17720,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "VC" = (
 /obj/structure/fans/tiny,
 /obj/effect/turf_decal/delivery,
@@ -16334,11 +17748,15 @@
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "VN" = (
 /obj/machinery/status_display/evac,
 /turf/closed/indestructible/riveted,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "VO" = (
 /obj/structure/table,
 /obj/item/toy/katana,
@@ -16357,7 +17775,9 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "VQ" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-22"
@@ -16372,7 +17792,9 @@
 "VT" = (
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "VU" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien22"
@@ -16389,14 +17811,18 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "VW" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
 	},
 /obj/machinery/portable_atmospherics/canister/toxins,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "VX" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -16406,13 +17832,17 @@
 	name = "XCC Customs 1 Shutters"
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "VY" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "VZ" = (
 /obj/structure/table/wood,
 /obj/item/clipboard,
@@ -16428,7 +17858,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Wa" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -16437,24 +17869,32 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Wc" = (
 /obj/structure/closet/cardboard,
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Wd" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "We" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Wg" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -16479,10 +17919,14 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Wj" = (
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/four)
+/area/centcom/supplypod/loading/four{
+	name = "NT CentCom SupplyPod Bay #4"
+	})
 "Wl" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien11"
@@ -16509,16 +17953,22 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Ww" = (
 /turf/closed/indestructible/riveted,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Wx" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Wy" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -16526,13 +17976,17 @@
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/flora/ausbushes/palebush,
 /turf/open/floor/plating/asteroid,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Wz" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "WA" = (
 /obj/structure/table/reinforced,
 /obj/machinery/button/door/indestructible{
@@ -16554,25 +18008,33 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "WB" = (
 /obj/structure/closet/syndicate/personal,
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "WC" = (
 /obj/effect/turf_decal/delivery,
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "WG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "WH" = (
 /obj/machinery/newscaster/security_unit{
 	pixel_x = 32
@@ -16588,7 +18050,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "WJ" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -16612,7 +18076,9 @@
 	pixel_y = 12
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "WK" = (
 /obj/effect/turf_decal/trimline/white/line{
 	dir = 8
@@ -16629,14 +18095,18 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "WP" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/one)
+/area/centcom/supplypod/loading/one{
+	name = "NT CentCom SupplyPod Bay #1"
+	})
 "WQ" = (
 /obj/machinery/door/airlock/external{
 	name = "Supply Shuttle";
@@ -16663,14 +18133,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "WT" = (
 /obj/effect/turf_decal/tile/green,
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "WU" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -16691,7 +18165,9 @@
 "WV" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "WW" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -16706,12 +18182,16 @@
 "WY" = (
 /obj/structure/sign/nanotrasen,
 /turf/closed/indestructible/riveted,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Xa" = (
 /turf/open/floor/partyhard/steel{
 	icon_state = "st-12"
 	},
-/area/centcom/prison)
+/area/centcom/prison{
+	name = "NT CentCom Admin Prison"
+	})
 "Xb" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 1
@@ -16733,7 +18213,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Xe" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -16745,15 +18227,21 @@
 	},
 /obj/structure/window/reinforced,
 /turf/open/floor/plating/asteroid,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Xf" = (
 /obj/structure/sign/departments/medbay/alt,
 /turf/closed/indestructible/riveted,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Xg" = (
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Xh" = (
 /obj/docking_port/stationary{
 	area_type = /area/syndicate_mothership;
@@ -16774,7 +18262,9 @@
 	req_access_txt = "106"
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Xj" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -16788,7 +18278,9 @@
 	req_access_txt = "150"
 	},
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Xl" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/donut_box,
@@ -16803,7 +18295,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Xm" = (
 /obj/structure/bookcase/random,
 /obj/machinery/light{
@@ -16820,11 +18314,15 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Xn" = (
 /obj/machinery/status_display/evac,
 /turf/closed/indestructible/riveted,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Xo" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/med_data/laptop,
@@ -16839,25 +18337,33 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Xp" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Xq" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "nukeop_ready";
 	name = "shuttle dock"
 	},
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Xr" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Xs" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -16873,13 +18379,17 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Xu" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Xv" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/trimline/white/line{
@@ -16916,11 +18426,15 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Xy" = (
 /obj/machinery/status_display/ai,
 /turf/closed/indestructible/riveted,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Xz" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
@@ -16956,7 +18470,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "XF" = (
 /obj/effect/turf_decal/trimline/white/line{
 	dir = 1
@@ -16973,13 +18489,17 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/three)
+/area/centcom/supplypod/loading/three{
+	name = "NT CentCom SupplyPod Bay #3"
+	})
 "XH" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/plating/airless,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "XI" = (
 /obj/effect/turf_decal/trimline/white/line{
 	dir = 5
@@ -16990,7 +18510,9 @@
 	})
 "XK" = (
 /turf/open/floor/plating,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "XL" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -17013,7 +18535,9 @@
 	pixel_y = -24
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "XN" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -17031,7 +18555,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/three)
+/area/centcom/supplypod/loading/three{
+	name = "NT CentCom SupplyPod Bay #3"
+	})
 "XP" = (
 /obj/machinery/button/door/indestructible{
 	id = "nukeop_ready";
@@ -17044,7 +18570,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "XQ" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/firstaid/regular,
@@ -17059,7 +18587,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "XR" = (
 /obj/machinery/door/window{
 	base_state = "right";
@@ -17069,10 +18599,14 @@
 	req_access_txt = "151"
 	},
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "XS" = (
 /turf/open/floor/plasteel/dark,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "XV" = (
 /obj/docking_port/stationary{
 	dir = 8;
@@ -17096,7 +18630,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "XX" = (
 /obj/item/clipboard,
 /obj/item/stamp/denied{
@@ -17128,11 +18664,15 @@
 	name = "XCC Customs 1 Shutters"
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Ya" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Yb" = (
 /obj/machinery/door/airlock/external{
 	name = "Ferry Airlock"
@@ -17144,16 +18684,22 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Yc" = (
 /turf/open/floor/plasteel/dark/telecomms,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Yd" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ye" = (
 /obj/machinery/airalarm{
 	dir = 1;
@@ -17161,7 +18707,9 @@
 	},
 /obj/machinery/door/window/northleft,
 /turf/open/floor/plasteel,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Yg" = (
 /obj/machinery/light{
 	dir = 8
@@ -17170,7 +18718,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Yh" = (
 /obj/machinery/light{
 	dir = 4;
@@ -17180,20 +18730,26 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Yi" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
 	},
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Yj" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/ert)
+/area/centcom/supplypod/loading/ert{
+	name = "NT CentCom ERT Bay"
+	})
 "Yk" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 1
@@ -17202,25 +18758,33 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Yl" = (
 /obj/effect/turf_decal/tile/green,
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ym" = (
 /obj/machinery/gravity_generator/main/station/admin,
 /turf/open/floor/partyhard/steel{
 	icon_state = "st-12"
 	},
-/area/centcom/prison)
+/area/centcom/prison{
+	name = "NT CentCom Admin Prison"
+	})
 "Yn" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/light/floor,
 /turf/open/floor/plating,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Yo" = (
 /obj/structure/table/wood,
 /obj/item/storage/box/drinkingglasses,
@@ -17238,10 +18802,14 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Ys" = (
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Yu" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -17252,10 +18820,14 @@
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Yv" = (
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Yw" = (
 /obj/machinery/light{
 	dir = 8
@@ -17271,7 +18843,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Yy" = (
 /obj/machinery/computer/med_data{
 	dir = 4
@@ -17287,13 +18861,19 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "YA" = (
 /turf/open/floor/wood,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "YB" = (
 /turf/open/floor/plasteel/grimy,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "YD" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -17307,7 +18887,9 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "YF" = (
 /obj/machinery/computer/card/centcom{
 	dir = 8
@@ -17323,11 +18905,15 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "YG" = (
 /obj/effect/turf_decal/tile/green,
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "YI" = (
 /obj/item/kirbyplants{
 	icon_state = "plant-21"
@@ -17337,7 +18923,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "YL" = (
 /obj/structure/table/abductor,
 /obj/machinery/recharger,
@@ -17357,7 +18945,9 @@
 	pixel_x = 32
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "YN" = (
 /obj/structure/closet/secure_closet/ert_med,
 /obj/structure/sign/directions/medical{
@@ -17368,7 +18958,9 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "YP" = (
 /obj/item/scalpel{
 	pixel_y = 12
@@ -17390,7 +18982,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "YQ" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
@@ -17399,7 +18993,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "YR" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom"
@@ -17408,13 +19004,17 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "YS" = (
 /obj/effect/turf_decal/arrows{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "YT" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom"
@@ -17423,7 +19023,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "YU" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -17467,7 +19069,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "YX" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -17491,7 +19095,9 @@
 "Za" = (
 /obj/structure/holosign/barrier/atmos,
 /turf/open/floor/plating,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Zb" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Security";
@@ -17506,7 +19112,9 @@
 /obj/item/reagent_containers/food/drinks/bottle/rum,
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Zd" = (
 /obj/item/defibrillator/loaded,
 /obj/structure/table/reinforced,
@@ -17517,7 +19125,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/white,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Ze" = (
 /turf/open/floor/plasteel,
 /area/centcom/evac{
@@ -17546,7 +19156,9 @@
 /obj/machinery/power/spaceminer/tier2,
 /obj/machinery/door/window/northleft,
 /turf/open/floor/circuit/red,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Zj" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -17564,7 +19176,9 @@
 "Zk" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible,
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Zm" = (
 /turf/closed/indestructible/riveted,
 /area/centcom/evac{
@@ -17577,29 +19191,39 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Zo" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "Zp" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/light,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Zq" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Zr" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Zs" = (
 /obj/machinery/computer/crew{
 	dir = 4
@@ -17615,13 +19239,17 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Zu" = (
 /obj/structure/chair/office{
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Zv" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/handcuffs,
@@ -17636,11 +19264,15 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Zw" = (
 /obj/structure/chair/office,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "Zx" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/syringes,
@@ -17652,18 +19284,24 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "Zz" = (
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
 	},
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "ZA" = (
 /obj/structure/chair/office{
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ZB" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 1
@@ -17685,7 +19323,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ZC" = (
 /obj/machinery/stasis{
 	pixel_y = 8
@@ -17705,7 +19345,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ZD" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -17714,7 +19356,9 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/pointybush,
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ZE" = (
 /obj/structure/table/wood/fancy/royalblue,
 /obj/item/storage/part_replacer/bluespace/tier8,
@@ -17722,7 +19366,9 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "ZF" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 4
@@ -17745,7 +19391,9 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ZG" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -17768,13 +19416,17 @@
 	desc = "This gaudy button can be used to instantly detonate syndicate bombs that have been activated on the station. It is also fun to press."
 	},
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "ZI" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 4
 	},
 /turf/open/floor/circuit/telecomms/server,
-/area/centcom/debug)
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "ZJ" = (
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
@@ -17802,11 +19454,15 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "ZL" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/ert)
+/area/centcom/supplypod/loading/ert{
+	name = "NT CentCom ERT Bay"
+	})
 "ZM" = (
 /turf/open/space/transit,
 /area/space)
@@ -17822,12 +19478,16 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/supplypod/loading/ert)
+/area/centcom/supplypod/loading/ert{
+	name = "NT CentCom ERT Bay"
+	})
 "ZO" = (
 /obj/structure/table/wood,
 /obj/item/toy/nuke,
 /turf/open/floor/wood,
-/area/syndicate_mothership/control)
+/area/syndicate_mothership/control{
+	name = "Syndicate Outpost"
+	})
 "ZP" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -17842,7 +19502,9 @@
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "ZR" = (
 /obj/structure/table/reinforced,
 /obj/item/folder/red{
@@ -17855,7 +19517,9 @@
 	},
 /obj/item/lighter,
 /turf/open/floor/plasteel/grimy,
-/area/centcom/ferry)
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
 "ZT" = (
 /obj/item/storage/box/ids{
 	pixel_x = 3;
@@ -17874,7 +19538,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ZU" = (
 /obj/structure/table/reinforced,
 /obj/item/clipboard,
@@ -17891,7 +19557,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ZV" = (
 /obj/machinery/computer/security{
 	dir = 1
@@ -17907,7 +19575,9 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ZW" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -17915,7 +19585,9 @@
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/genericbush,
 /turf/open/floor/grass,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ZX" = (
 /turf/closed/indestructible/black,
 /area/space)
@@ -17935,14 +19607,18 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 "ZZ" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/centcom/control)
+/area/centcom/control{
+	name = "NT CentCom Docks"
+	})
 
 (1,1,1) = {"
 Co
