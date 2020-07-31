@@ -27275,7 +27275,6 @@
 	pixel_y = 23
 	},
 /obj/structure/cable,
-/obj/structure/cable,
 /obj/machinery/computer/message_monitor{
 	dir = 4
 	},

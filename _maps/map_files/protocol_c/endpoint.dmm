@@ -4765,6 +4765,9 @@
 	icon_state = "chapel"
 	},
 /area/holodeck/rec_center/chapelcourt)
+"nd" = (
+/turf/closed/wall/r_wall,
+/area/space)
 "nf" = (
 /obj/machinery/light{
 	dir = 4
@@ -5271,6 +5274,9 @@
 /obj/structure/chair/stool/bar,
 /turf/open/floor/wood,
 /area/centcom/holding)
+"oQ" = (
+/turf/closed/wall,
+/area/space)
 "oT" = (
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/firingrange)
@@ -30194,7 +30200,7 @@ Co
 Co
 Co
 Co
-Co
+ZX
 Co
 Co
 Co
@@ -30451,7 +30457,7 @@ Co
 Co
 Co
 Co
-Co
+ag
 Co
 Co
 Co
@@ -30708,7 +30714,7 @@ Co
 Co
 Co
 Co
-Co
+ZM
 Co
 Co
 Co
@@ -30965,7 +30971,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -31222,7 +31228,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -31479,7 +31485,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -31736,7 +31742,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -31993,7 +31999,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -32250,7 +32256,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -32507,7 +32513,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -32764,7 +32770,7 @@ Co
 Co
 Co
 Co
-Co
+ZM
 Co
 Co
 Co
@@ -33011,27 +33017,27 @@ Co
 Co
 Co
 Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
-Co
+ZX
+ag
+nd
+nd
+oQ
+oQ
+oQ
+oQ
+oQ
+ZM
+ag
+ZM
+nd
+oQ
+oQ
+oQ
+oQ
+oQ
+ZM
+ag
+ZX
 Co
 Co
 Co
@@ -33278,7 +33284,7 @@ Co
 Co
 Co
 Co
-Co
+ZM
 Co
 Co
 Co
@@ -33535,7 +33541,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -33792,7 +33798,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -34049,7 +34055,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -34306,7 +34312,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -34563,7 +34569,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -34820,7 +34826,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -35077,7 +35083,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -35334,7 +35340,7 @@ Co
 Co
 Co
 Co
-Co
+nd
 Co
 Co
 Co
@@ -35591,7 +35597,7 @@ Co
 Co
 Co
 Co
-Co
+ag
 Co
 Co
 Co
@@ -35848,7 +35854,7 @@ Co
 Co
 Co
 Co
-Co
+ZX
 Co
 Co
 Co
