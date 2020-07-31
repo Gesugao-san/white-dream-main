@@ -14,6 +14,21 @@
 /area/centcom/evac{
 	name = "NT CentCom Emergency Shuttle Dock"
 	})
+"ac" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 10
+	},
+/obj/machinery/meter/atmos{
+	name = "gas flow meter (layer 3)";
+	target_layer = 3
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 10
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "ad" = (
 /turf/closed/indestructible/riveted,
 /area/awaymission/errorroom)
@@ -28,21 +43,6 @@
 "ag" = (
 /turf/closed/indestructible/riveted,
 /area/space)
-"ah" = (
-/obj/machinery/portable_atmospherics/pump,
-/obj/structure/window/reinforced,
-/turf/open/floor/vault,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
-"ai" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plasteel{
-	heat_capacity = 1e+006
-	},
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "aj" = (
 /obj/structure/window/reinforced,
 /turf/closed/indestructible/riveted,
@@ -93,6 +93,23 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/control{
 	name = "NT CentCom Docks"
+	})
+"ar" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/table/wood/fancy/royalblue,
+/obj/item/healthanalyzer/advanced,
+/obj/item/healthanalyzer/advanced,
+/obj/item/healthanalyzer/advanced,
+/turf/open/floor/plasteel{
+	heat_capacity = 1e+006
+	},
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
 	})
 "as" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -473,21 +490,6 @@
 /obj/effect/holodeck_effect/sparks,
 /turf/open/floor/holofloor/plating/burnmix,
 /area/holodeck/rec_center/burn)
-"bq" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
-	dir = 10
-	},
-/obj/machinery/meter/atmos{
-	name = "gas flow meter (layer 3)";
-	target_layer = 3
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 10
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "bs" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -781,13 +783,6 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/court)
-"ci" = (
-/obj/machinery/door/firedoor/window,
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/centcom/supplypod{
-	name = "NT CentCom Supplypod Facility"
-	})
 "ck" = (
 /obj/effect/landmark/error,
 /turf/open/floor/plating/ashplanet/wateryrock{
@@ -817,15 +812,10 @@
 	},
 /area/awaymission/errorroom)
 "co" = (
-/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer3{
-	dir = 4
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plasteel{
+	heat_capacity = 1e+006
 	},
-/obj/machinery/meter/atmos{
-	name = "gas flow meter (layer 3)";
-	target_layer = 3
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
-/turf/open/floor/plasteel/dark,
 /area/centcom/debug{
 	name = "NT CentCom Debug Operations"
 	})
@@ -960,22 +950,6 @@
 /obj/machinery/vending/ancap,
 /turf/open/floor/plasteel,
 /area/trading_outpost)
-"cK" = (
-/obj/structure/fans/tiny,
-/obj/structure/cable,
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = -24
-	},
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/machinery/door/window/northleft,
-/obj/effect/turf_decal/delivery,
-/turf/open/floor/vault,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "cL" = (
 /obj/effect/turf_decal/tile/green,
 /obj/effect/turf_decal/tile/green{
@@ -988,6 +962,15 @@
 /turf/open/floor/plasteel,
 /area/centcom/evac{
 	name = "NT CentCom Emergency Shuttle Dock"
+	})
+"cO" = (
+/obj/effect/turf_decal/delivery,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/centcom/supply{
+	name = "NT CentCom Supply Shuttle Dock"
 	})
 "cP" = (
 /obj/effect/turf_decal/tile/green,
@@ -1086,17 +1069,6 @@
 	},
 /turf/open/floor/plating,
 /area/ctf)
-"dd" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer3{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "de" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 1
@@ -1149,18 +1121,6 @@
 /turf/open/floor/plasteel,
 /area/centcom/control{
 	name = "NT CentCom Docks"
-	})
-"do" = (
-/obj/effect/turf_decal/tile/brown,
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 5
-	},
-/turf/open/floor/plasteel,
-/area/centcom/supply{
-	name = "NT CentCom Supply Shuttle Dock"
 	})
 "dq" = (
 /obj/structure/flora/ausbushes/genericbush,
@@ -1391,6 +1351,19 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
+"dQ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
+/obj/machinery/meter/atmos{
+	name = "gas flow meter (layer 1)";
+	target_layer = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer1{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "dR" = (
 /obj/structure/table,
 /obj/machinery/readybutton,
@@ -1628,6 +1601,13 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/centcom/holding)
+"eK" = (
+/obj/machinery/door/firedoor/window,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/centcom/supplypod{
+	name = "NT CentCom Supplypod Facility"
+	})
 "eL" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 4
@@ -1667,6 +1647,20 @@
 	},
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/pet_lounge)
+"eR" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/meter/atmos{
+	name = "gas flow meter (layer 3)";
+	target_layer = 3
+	},
+/turf/open/floor/plasteel{
+	heat_capacity = 1e+006
+	},
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "eT" = (
 /obj/item/trash/plate,
 /obj/effect/turf_decal/tile/red,
@@ -1937,6 +1931,17 @@
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/basketball)
+"ft" = (
+/obj/effect/turf_decal/stripes/white/line,
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
+	dir = 4;
+	external_pressure_bound = 120;
+	name = "server vent"
+	},
+/turf/open/floor/engine/air,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "fu" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -2114,18 +2119,6 @@
 /obj/item/clothing/suit/beekeeper_suit,
 /turf/open/floor/holofloor/asteroid,
 /area/holodeck/rec_center/anthophila)
-"fS" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 8
-	},
-/obj/machinery/meter/atmos{
-	name = "gas flow meter (layer 1)";
-	target_layer = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "fT" = (
 /obj/effect/holodeck_effect/mobspawner/bee,
 /obj/item/melee/flyswatter,
@@ -2491,11 +2484,16 @@
 "ha" = (
 /turf/open/floor/holofloor/beach/coast_t,
 /area/holodeck/rec_center/beach)
-"hd" = (
-/obj/effect/decal/cleanable/robot_debris,
-/turf/open/floor/mineral/titanium/yellow,
-/area/centcom/evac{
-	name = "NT Recovery Ship"
+"he" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
 	})
 "hf" = (
 /obj/machinery/modular_computer/console/preset/research,
@@ -2504,6 +2502,19 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
+"hg" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{
+	dir = 8
+	},
+/turf/open/floor/plasteel{
+	heat_capacity = 1e+006
+	},
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "hh" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/bookmanagement,
@@ -2560,6 +2571,13 @@
 /obj/structure/flora/ausbushes/pointybush,
 /turf/open/floor/holofloor/grass,
 /area/holodeck/rec_center/pet_lounge)
+"hw" = (
+/obj/machinery/portable_atmospherics/pump,
+/obj/structure/window/reinforced,
+/turf/open/floor/vault,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "hx" = (
 /obj/machinery/door/window/westleft,
 /turf/open/floor/holofloor{
@@ -2711,13 +2729,6 @@
 "hK" = (
 /turf/open/floor/holofloor/beach/coast_b,
 /area/holodeck/rec_center/beach)
-"hL" = (
-/obj/machinery/door/firedoor/window,
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/centcom/control{
-	name = "NT CentCom Docks"
-	})
 "hM" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
@@ -3498,18 +3509,6 @@
 /obj/item/banner/red,
 /turf/open/floor/holofloor/grass,
 /area/holodeck/rec_center/thunderdome1218)
-"jG" = (
-/obj/effect/turf_decal/tile/brown,
-/obj/effect/turf_decal/tile/brown{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 10
-	},
-/turf/open/floor/plasteel,
-/area/centcom/supply{
-	name = "NT CentCom Supply Shuttle Dock"
-	})
 "jH" = (
 /obj/structure/closet/secure_closet/hydroponics{
 	locked = 0
@@ -3722,6 +3721,16 @@
 /area/abductor_ship{
 	name = "Abductor Ship #2"
 	})
+"km" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plasteel{
+	heat_capacity = 1e+006
+	},
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "kn" = (
 /obj/structure/table/wood/fancy,
 /obj/item/storage/book/bible,
@@ -3758,6 +3767,18 @@
 /obj/item/mop,
 /turf/open/floor/plasteel/cafeteria,
 /area/centcom/holding)
+"ku" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 8
+	},
+/obj/machinery/meter/atmos{
+	name = "gas flow meter (layer 1)";
+	target_layer = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "kw" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 1
@@ -3953,6 +3974,19 @@
 	icon_state = "white"
 	},
 /area/holodeck/rec_center/spacechess)
+"kR" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/meter/atmos{
+	name = "gas flow meter (layer 3)";
+	target_layer = 3
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
+/turf/open/floor/plasteel/dark,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "kS" = (
 /obj/structure/closet/secure_closet/freezer/meat/open,
 /obj/item/reagent_containers/food/snacks/carpmeat,
@@ -4350,17 +4384,6 @@
 /area/centcom/evac{
 	name = "NT CentCom Emergency Shuttle Dock"
 	})
-"lT" = (
-/obj/effect/turf_decal/loading_area{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/centcom/supply{
-	name = "NT CentCom Supply Shuttle Dock"
-	})
 "lU" = (
 /obj/effect/turf_decal/trimline/white/line,
 /obj/machinery/atmospherics/pipe/manifold/green/hidden,
@@ -4507,15 +4530,6 @@
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/one{
 	name = "NT CentCom SupplyPod Bay #1"
-	})
-"mt" = (
-/obj/machinery/iv_drip,
-/obj/effect/turf_decal/bot,
-/turf/open/floor/plasteel{
-	heat_capacity = 1e+006
-	},
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
 	})
 "mw" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -5092,16 +5106,6 @@
 /obj/item/spear,
 /turf/open/floor/holofloor/asteroid,
 /area/holodeck/rec_center/thunderdome1218)
-"on" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 4
-	},
-/turf/open/floor/plasteel{
-	heat_capacity = 1e+006
-	},
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "oo" = (
 /obj/structure/table/wood,
 /obj/item/tailclub,
@@ -5205,6 +5209,13 @@
 "oA" = (
 /turf/open/floor/plasteel/stairs,
 /area/centcom/holding)
+"oC" = (
+/obj/structure/closet/crate/trashcart,
+/obj/effect/spawner/lootdrop/maintenance/six,
+/turf/open/floor/mineral/titanium/yellow,
+/area/centcom/evac{
+	name = "NT Recovery Ship"
+	})
 "oE" = (
 /obj/structure/chair/stool,
 /obj/effect/turf_decal/tile/bar,
@@ -5234,19 +5245,6 @@
 /obj/item/clothing/under/costume/schoolgirl/green,
 /turf/open/floor/holofloor,
 /area/holodeck/rec_center/school)
-"oL" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
-/obj/machinery/meter/atmos{
-	name = "gas flow meter (layer 1)";
-	target_layer = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer1{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "oN" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -5427,6 +5425,12 @@
 	},
 /turf/open/floor/holofloor/plating,
 /area/holodeck/rec_center/kobayashi)
+"py" = (
+/obj/effect/decal/cleanable/robot_debris,
+/turf/open/floor/mineral/titanium/yellow,
+/area/centcom/evac{
+	name = "NT Recovery Ship"
+	})
 "pA" = (
 /obj/structure/chair{
 	dir = 1
@@ -5760,30 +5764,6 @@
 	},
 /turf/open/floor/wood,
 /area/centcom/holding)
-"qv" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/structure/table/wood/fancy/royalblue,
-/obj/item/healthanalyzer/advanced,
-/obj/item/healthanalyzer/advanced,
-/obj/item/healthanalyzer/advanced,
-/turf/open/floor/plasteel{
-	heat_capacity = 1e+006
-	},
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
-"qx" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor/window,
-/turf/open/floor/plating,
-/area/centcom/supply{
-	name = "NT CentCom Supply Shuttle Dock"
-	})
 "qy" = (
 /obj/effect/turf_decal/trimline/yellow/line{
 	dir = 1
@@ -5874,17 +5854,6 @@
 	},
 /area/abductor_ship{
 	name = "Abductor Ship #3"
-	})
-"qO" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
 	})
 "qR" = (
 /obj/structure/table,
@@ -6376,13 +6345,6 @@
 /obj/machinery/light,
 /turf/open/floor/wood,
 /area/centcom/holding)
-"rY" = (
-/obj/machinery/power/terminal,
-/obj/structure/cable,
-/turf/open/floor/vault,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "rZ" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 1
@@ -6396,22 +6358,6 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood,
 /area/trading_outpost)
-"sb" = (
-/obj/structure/window/plasma/reinforced{
-	dir = 1;
-	pixel_y = 4
-	},
-/obj/effect/turf_decal/stripes/white/line,
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/unary/passive_vent{
-	dir = 4
-	},
-/turf/open/floor/engine/air,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "sc" = (
 /obj/structure/chair/sofa/right{
 	dir = 1
@@ -6830,6 +6776,27 @@
 	icon_state = "labwall-v-l"
 	},
 /area/trading_outpost)
+"tk" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plasteel{
+	heat_capacity = 1e+006
+	},
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
+"tl" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer3{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "tm" = (
 /turf/open/floor/plating/abductor,
 /area/abductor_ship{
@@ -6861,6 +6828,22 @@
 	},
 /turf/open/floor/plasteel,
 /area/trading_outpost)
+"tr" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/centcom{
+	name = "Administrative Storage";
+	req_access_txt = "106"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "ts" = (
 /turf/closed/dz/lab{
 	icon_state = "labwall-v-r"
@@ -6923,16 +6906,6 @@
 /turf/open/floor/plasteel/dark,
 /area/syndicate_mothership/control{
 	name = "Syndicate Outpost"
-	})
-"tx" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plasteel{
-	heat_capacity = 1e+006
-	},
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
 	})
 "ty" = (
 /obj/effect/turf_decal/bot,
@@ -7016,13 +6989,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/trading_outpost)
-"tI" = (
-/obj/structure/closet/crate/trashcart,
-/obj/effect/spawner/lootdrop/maintenance/six,
-/turf/open/floor/mineral/titanium/yellow,
-/area/centcom/evac{
-	name = "NT Recovery Ship"
-	})
 "tJ" = (
 /obj/effect/turf_decal/tile/neutral,
 /obj/machinery/light{
@@ -7318,28 +7284,19 @@
 /turf/open/floor/wood,
 /area/centcom/holding)
 "uu" = (
-/obj/structure/closet/firecloset,
-/turf/open/floor/mineral/titanium/blue,
-/area/centcom/evac{
-	name = "NT Recovery Ship"
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/firedoor/window,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 8
+	},
+/turf/open/floor/plasteel/dark,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
 	})
 "uv" = (
 /turf/closed/indestructible/opsglass,
 /area/syndicate_mothership/control{
 	name = "Syndicate Outpost"
-	})
-"uz" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 5
-	},
-/obj/machinery/meter/atmos{
-	name = "gas flow meter (layer 1)";
-	target_layer = 1
-	},
-/turf/open/space/basic,
-/area/centcom/supply{
-	name = "NT CentCom Supply Shuttle Dock"
 	})
 "uA" = (
 /obj/machinery/card_button/trader{
@@ -7601,6 +7558,14 @@
 	},
 /area/abductor_ship{
 	name = "Abductor Ship #1"
+	})
+"vl" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5
+	},
+/turf/open/floor/engine/air,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
 	})
 "vm" = (
 /turf/closed/indestructible/abductor{
@@ -8208,6 +8173,16 @@
 /area/centcom/evac{
 	name = "NT Recovery Ship"
 	})
+"wX" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/firedoor/window,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/centcom/supply{
+	name = "NT CentCom Supply Shuttle Dock"
+	})
 "wY" = (
 /obj/machinery/computer/camera_advanced/abductor{
 	team_number = 2
@@ -8304,16 +8279,6 @@
 /turf/open/floor/plating/abductor,
 /area/abductor_ship{
 	name = "Abductor Ship #1"
-	})
-"xk" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer3{
-	dir = 8
-	},
-/turf/open/floor/plasteel{
-	heat_capacity = 1e+006
-	},
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
 	})
 "xl" = (
 /obj/structure/table/abductor,
@@ -8751,19 +8716,6 @@
 /area/centcom/ferry{
 	name = "NT CentCom Transport Shuttle Dock"
 	})
-"yq" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{
-	dir = 8
-	},
-/turf/open/floor/plasteel{
-	heat_capacity = 1e+006
-	},
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "ys" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien6"
@@ -8863,6 +8815,13 @@
 /turf/open/floor/plasteel,
 /area/centcom/control{
 	name = "NT CentCom Docks"
+	})
+"yI" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/components/unary/outlet_injector/layer1,
+/turf/open/space/basic,
+/area/centcom/supply{
+	name = "NT CentCom Supply Shuttle Dock"
 	})
 "yM" = (
 /obj/effect/turf_decal/stripes/line{
@@ -9322,6 +9281,15 @@
 /area/abductor_ship{
 	name = "Abductor Ship #3"
 	})
+"Aa" = (
+/obj/machinery/iv_drip,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/plasteel{
+	heat_capacity = 1e+006
+	},
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Ad" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/bar,
@@ -9496,6 +9464,16 @@
 /turf/open/floor/mineral/titanium/blue,
 /area/centcom/evac{
 	name = "NT Recovery Ship"
+	})
+"AB" = (
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/holosign/barrier/atmos,
+/turf/open/floor/engine/air,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
 	})
 "AC" = (
 /turf/open/floor/plasteel,
@@ -10176,13 +10154,6 @@
 /turf/open/floor/engine/air,
 /area/centcom/debug{
 	name = "NT CentCom Debug Operations"
-	})
-"Cj" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor/window,
-/turf/open/floor/plating,
-/area/centcom/control{
-	name = "NT CentCom Docks"
 	})
 "Cl" = (
 /obj/structure/window/reinforced{
@@ -11195,6 +11166,23 @@
 /area/centcom/supply{
 	name = "NT CentCom Supply Shuttle Dock"
 	})
+"Eq" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 8
+	},
+/obj/machinery/meter/atmos{
+	name = "gas flow meter (layer 1)";
+	target_layer = 1
+	},
+/turf/open/floor/plasteel{
+	heat_capacity = 1e+006
+	},
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Er" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -11344,6 +11332,16 @@
 /turf/open/floor/plasteel,
 /area/centcom/ferry{
 	name = "NT CentCom Transport Shuttle Dock"
+	})
+"EM" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plasteel{
+	heat_capacity = 1e+006
+	},
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
 	})
 "EN" = (
 /obj/machinery/light/small{
@@ -11504,12 +11502,6 @@
 /turf/open/floor/plasteel,
 /area/centcom/supply{
 	name = "NT CentCom Supply Shuttle Dock"
-	})
-"Fg" = (
-/obj/structure/cable,
-/turf/open/floor/plasteel/dark,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
 	})
 "Fh" = (
 /obj/machinery/door/poddoor{
@@ -11797,16 +11789,6 @@
 	},
 /turf/open/floor/wood,
 /area/wizard_station)
-"FU" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor/window,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/centcom/supply{
-	name = "NT CentCom Supply Shuttle Dock"
-	})
 "FV" = (
 /obj/structure/chair/wood/wings{
 	dir = 4
@@ -11984,6 +11966,19 @@
 /area/centcom/control{
 	name = "NT CentCom Docks"
 	})
+"Gu" = (
+/obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 5
+	},
+/obj/machinery/meter/atmos{
+	name = "gas flow meter (layer 1)";
+	target_layer = 1
+	},
+/turf/open/space/basic,
+/area/centcom/supply{
+	name = "NT CentCom Supply Shuttle Dock"
+	})
 "Gv" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -11995,13 +11990,6 @@
 /obj/item/camera/spooky,
 /turf/open/floor/carpet,
 /area/wizard_station)
-"Gx" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor/window,
-/turf/open/floor/plating,
-/area/centcom/ferry{
-	name = "NT CentCom Transport Shuttle Dock"
-	})
 "Gz" = (
 /obj/structure/table/wood/poker,
 /obj/item/toy/cards/deck,
@@ -12160,14 +12148,6 @@
 	},
 /turf/open/floor/carpet,
 /area/wizard_station)
-"GR" = (
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 5
-	},
-/turf/open/floor/engine/air,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "GT" = (
 /obj/structure/table/wood/fancy,
 /obj/item/storage/photo_album,
@@ -12180,6 +12160,22 @@
 	},
 /area/abductor_ship{
 	name = "Abductor Ship #3"
+	})
+"GW" = (
+/obj/structure/window/plasma/reinforced{
+	dir = 1;
+	pixel_y = 4
+	},
+/obj/effect/turf_decal/stripes/white/line,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/passive_vent{
+	dir = 4
+	},
+/turf/open/floor/engine/air,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
 	})
 "GX" = (
 /obj/structure/closet/emcloset,
@@ -12303,6 +12299,22 @@
 /turf/closed/indestructible/riveted,
 /area/centcom/supply{
 	name = "NT CentCom Supply Shuttle Dock"
+	})
+"Ho" = (
+/obj/structure/fans/tiny,
+/obj/structure/cable,
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = -24
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/door/window/northleft,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/vault,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
 	})
 "Hp" = (
 /obj/structure/chair/office{
@@ -12723,6 +12735,18 @@
 /area/syndicate_mothership/control{
 	name = "Syndicate Outpost"
 	})
+"Ih" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 10
+	},
+/turf/open/floor/plasteel,
+/area/centcom/supply{
+	name = "NT CentCom Supply Shuttle Dock"
+	})
 "Ii" = (
 /obj/structure/destructible/cult/tome,
 /turf/open/floor/engine/cult,
@@ -13076,13 +13100,6 @@
 /area/centcom/supply{
 	name = "NT CentCom Supply Shuttle Dock"
 	})
-"IT" = (
-/obj/structure/cable,
-/obj/effect/turf_decal/arrows,
-/turf/open/floor/plasteel/dark,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "IU" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/package_wrap,
@@ -13283,17 +13300,6 @@
 /turf/open/floor/plasteel/grimy,
 /area/centcom/ferry{
 	name = "NT CentCom Transport Shuttle Dock"
-	})
-"Js" = (
-/obj/effect/turf_decal/stripes/white/line,
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
-	dir = 4;
-	external_pressure_bound = 120;
-	name = "server vent"
-	},
-/turf/open/floor/engine/air,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
 	})
 "Jt" = (
 /obj/structure/chair/comfy/brown{
@@ -14604,6 +14610,7 @@
 	})
 "Mw" = (
 /obj/machinery/suit_storage_unit/ce,
+/obj/machinery/door/window/southright,
 /turf/open/floor/vault,
 /area/centcom/debug{
 	name = "NT CentCom Debug Operations"
@@ -14630,6 +14637,7 @@
 	})
 "Mz" = (
 /obj/structure/tank_dispenser/oxygen,
+/obj/machinery/door/window/southright,
 /turf/open/floor/vault,
 /area/centcom/debug{
 	name = "NT CentCom Debug Operations"
@@ -14689,6 +14697,7 @@
 "MH" = (
 /obj/machinery/power/smes/magical,
 /obj/structure/cable,
+/obj/machinery/door/window/eastright,
 /turf/open/floor/vault,
 /area/centcom/debug{
 	name = "NT CentCom Debug Operations"
@@ -14703,23 +14712,6 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/control{
 	name = "NT CentCom Docks"
-	})
-"ML" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 8
-	},
-/obj/machinery/meter/atmos{
-	name = "gas flow meter (layer 1)";
-	target_layer = 1
-	},
-/turf/open/floor/plasteel{
-	heat_capacity = 1e+006
-	},
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
 	})
 "MM" = (
 /obj/structure/fans/tiny,
@@ -14759,6 +14751,16 @@
 /area/centcom/control{
 	name = "NT CentCom Docks"
 	})
+"MP" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer3{
+	dir = 8
+	},
+/turf/open/floor/plasteel{
+	heat_capacity = 1e+006
+	},
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "MR" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -14790,15 +14792,21 @@
 /area/centcom/control{
 	name = "NT CentCom Docks"
 	})
+"MW" = (
+/obj/effect/turf_decal/arrows,
+/turf/open/floor/plasteel/dark,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "MX" = (
 /obj/machinery/abductor/gland_dispenser,
 /turf/open/floor/plating/abductor,
 /area/abductor_ship{
 	name = "Abductor Ship #2"
 	})
-"MY" = (
+"MZ" = (
 /obj/effect/turf_decal/stripes/line{
-	dir = 6
+	dir = 4
 	},
 /turf/open/floor/plasteel{
 	heat_capacity = 1e+006
@@ -14961,6 +14969,17 @@
 /area/syndicate_mothership/control{
 	name = "Syndicate Outpost"
 	})
+"Ny" = (
+/obj/effect/turf_decal/loading_area{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/centcom/supply{
+	name = "NT CentCom Supply Shuttle Dock"
+	})
 "Nz" = (
 /obj/structure/sign/warning/coldtemp,
 /turf/closed/indestructible/riveted,
@@ -15088,6 +15107,19 @@
 /turf/open/floor/plasteel,
 /area/centcom/ferry{
 	name = "NT CentCom Transport Shuttle Dock"
+	})
+"NT" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 8
+	},
+/turf/open/floor/plasteel{
+	heat_capacity = 1e+006
+	},
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
 	})
 "NU" = (
 /obj/structure/chair/office{
@@ -15608,6 +15640,24 @@
 /area/abductor_ship{
 	name = "Abductor Ship #2"
 	})
+"OT" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/structure/table/wood/fancy/royalblue,
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = -24
+	},
+/turf/open/floor/plasteel{
+	heat_capacity = 1e+006
+	},
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "OV" = (
 /turf/closed/indestructible/abductor{
 	icon_state = "alien7"
@@ -15904,6 +15954,13 @@
 /area/centcom/control{
 	name = "NT CentCom Docks"
 	})
+"PB" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/firedoor/window,
+/turf/open/floor/plating,
+/area/centcom/supply{
+	name = "NT CentCom Supply Shuttle Dock"
+	})
 "PE" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -15952,19 +16009,6 @@
 /area/centcom/supplypod/loading/two{
 	name = "NT CentCom SupplyPod Bay #2"
 	})
-"PJ" = (
-/obj/structure/lattice/catwalk,
-/obj/machinery/atmospherics/components/unary/outlet_injector/layer1,
-/turf/open/space/basic,
-/area/centcom/supply{
-	name = "NT CentCom Supply Shuttle Dock"
-	})
-"PK" = (
-/obj/effect/turf_decal/arrows,
-/turf/open/floor/plasteel/dark,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "PL" = (
 /obj/structure/sign/warning/docking,
 /turf/closed/indestructible/riveted,
@@ -15987,6 +16031,13 @@
 /turf/open/floor/plasteel,
 /area/centcom/ferry{
 	name = "NT CentCom Transport Shuttle Dock"
+	})
+"PP" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/firedoor/window,
+/turf/open/floor/plating,
+/area/centcom/control{
+	name = "NT CentCom Docks"
 	})
 "PR" = (
 /obj/structure/chair/office,
@@ -16050,23 +16101,12 @@
 /area/centcom/debug{
 	name = "NT CentCom Debug Operations"
 	})
-"PY" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/structure/table/wood/fancy/royalblue,
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = -24
-	},
-/turf/open/floor/plasteel{
-	heat_capacity = 1e+006
-	},
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
+"Qb" = (
+/obj/machinery/door/firedoor/window,
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/centcom/control{
+	name = "NT CentCom Docks"
 	})
 "Qd" = (
 /obj/effect/turf_decal/tile/neutral{
@@ -16493,6 +16533,24 @@
 /area/syndicate_mothership/control{
 	name = "Syndicate Outpost"
 	})
+"Rb" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/centcom/supply{
+	name = "NT CentCom Supply Shuttle Dock"
+	})
 "Rd" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -16609,16 +16667,6 @@
 /area/centcom/supply{
 	name = "NT CentCom Supply Shuttle Dock"
 	})
-"Rt" = (
-/obj/machinery/atmospherics/pipe/simple/general/visible{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/line,
-/obj/structure/holosign/barrier/atmos,
-/turf/open/floor/engine/air,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "Ru" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/fancy/donut_box,
@@ -16716,6 +16764,13 @@
 /turf/open/floor/plasteel,
 /area/centcom/control{
 	name = "NT CentCom Docks"
+	})
+"RC" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/arrows,
+/turf/open/floor/plasteel/dark,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
 	})
 "RE" = (
 /turf/closed/indestructible/syndicate,
@@ -17398,6 +17453,18 @@
 /area/centcom/ferry{
 	name = "NT CentCom Transport Shuttle Dock"
 	})
+"Tk" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 5
+	},
+/turf/open/floor/plasteel,
+/area/centcom/supply{
+	name = "NT CentCom Supply Shuttle Dock"
+	})
 "Tm" = (
 /obj/structure/closet/emcloset,
 /obj/item/tank/internals/emergency_oxygen/engi,
@@ -17591,16 +17658,6 @@
 /area/abductor_ship{
 	name = "Abductor Ship #3"
 	})
-"TI" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 8
-	},
-/turf/open/floor/plasteel{
-	heat_capacity = 1e+006
-	},
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "TJ" = (
 /turf/open/space/basic,
 /area/centcom/control{
@@ -17742,22 +17799,6 @@
 /turf/open/floor/plasteel,
 /area/centcom/evac{
 	name = "NT CentCom Emergency Shuttle Dock"
-	})
-"Uc" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/centcom{
-	name = "Administrative Storage";
-	req_access_txt = "106"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
 	})
 "Ud" = (
 /turf/closed/lifeweb/rock,
@@ -18353,20 +18394,6 @@
 /area/centcom/supply{
 	name = "NT CentCom Supply Shuttle Dock"
 	})
-"VF" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
-	dir = 4
-	},
-/obj/machinery/meter/atmos{
-	name = "gas flow meter (layer 3)";
-	target_layer = 3
-	},
-/turf/open/floor/plasteel{
-	heat_capacity = 1e+006
-	},
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
-	})
 "VG" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -18387,6 +18414,16 @@
 /turf/open/floor/plasteel,
 /area/centcom/ferry{
 	name = "NT CentCom Transport Shuttle Dock"
+	})
+"VK" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/vault,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
 	})
 "VN" = (
 /obj/machinery/status_display/evac,
@@ -18571,15 +18608,6 @@
 /area/abductor_ship{
 	name = "Abductor Ship #4"
 	})
-"Wo" = (
-/obj/effect/turf_decal/delivery,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/centcom/supply{
-	name = "NT CentCom Supply Shuttle Dock"
-	})
 "Wp" = (
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/brown{
@@ -18602,23 +18630,11 @@
 /area/centcom/control{
 	name = "NT CentCom Docks"
 	})
-"Wu" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/centcom/supply{
-	name = "NT CentCom Supply Shuttle Dock"
+"Wt" = (
+/obj/structure/closet/firecloset,
+/turf/open/floor/mineral/titanium/blue,
+/area/centcom/evac{
+	name = "NT Recovery Ship"
 	})
 "Ww" = (
 /turf/closed/indestructible/riveted,
@@ -18761,16 +18777,6 @@
 /turf/open/floor/plasteel,
 /area/centcom/ferry{
 	name = "NT CentCom Transport Shuttle Dock"
-	})
-"WO" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/door/firedoor/window,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
 	})
 "WP" = (
 /obj/effect/turf_decal/tile/brown,
@@ -19341,6 +19347,12 @@
 /area/centcom/control{
 	name = "NT CentCom Docks"
 	})
+"XZ" = (
+/obj/structure/cable,
+/turf/open/floor/plasteel/dark,
+/area/centcom/debug{
+	name = "NT CentCom Debug Operations"
+	})
 "Ya" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel,
@@ -19582,19 +19594,6 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/ferry{
 	name = "NT CentCom Transport Shuttle Dock"
-	})
-"YE" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
-	dir = 8
-	},
-/turf/open/floor/plasteel{
-	heat_capacity = 1e+006
-	},
-/area/centcom/debug{
-	name = "NT CentCom Debug Operations"
 	})
 "YF" = (
 /obj/machinery/computer/card/centcom{
@@ -20003,6 +20002,13 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel,
+/area/centcom/ferry{
+	name = "NT CentCom Transport Shuttle Dock"
+	})
+"Zy" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/firedoor/window,
+/turf/open/floor/plating,
 /area/centcom/ferry{
 	name = "NT CentCom Transport Shuttle Dock"
 	})
@@ -27498,12 +27504,12 @@ Co
 Co
 Co
 Co
-Gx
-Gx
+Zy
+Zy
 Xy
 Xn
-Gx
-Gx
+Zy
+Zy
 Co
 Co
 Co
@@ -27755,12 +27761,12 @@ Co
 Co
 Co
 Co
-Gx
+Zy
 Im
 NQ
 NA
 QC
-Gx
+Zy
 Co
 Co
 XV
@@ -28019,9 +28025,9 @@ ND
 OY
 pU
 Co
-Gx
+Zy
 XW
-Gx
+Zy
 Co
 Nn
 Nn
@@ -28269,16 +28275,16 @@ Co
 Co
 Co
 Co
-Gx
+Zy
 LY
 RY
 NI
 yV
 pU
 Ti
-Gx
+Zy
 Su
-Gx
+Zy
 Uh
 pU
 Nn
@@ -28526,22 +28532,22 @@ Co
 Co
 Co
 Co
-Gx
+Zy
 Iv
 Oe
 TF
 Pd
 Xy
 Tm
-Gx
+Zy
 Yb
-Gx
+Zy
 Ul
 Xn
 Yn
-Gx
+Zy
 Xn
-Gx
+Zy
 Yn
 pU
 Co
@@ -28800,7 +28806,7 @@ Lf
 Lf
 Lf
 Af
-Gx
+Zy
 Co
 Co
 Co
@@ -29040,7 +29046,7 @@ Co
 Co
 Co
 Co
-Gx
+Zy
 Md
 KM
 Kt
@@ -29057,7 +29063,7 @@ ZN
 At
 ZN
 ZL
-Gx
+Zy
 Co
 Co
 Co
@@ -29314,7 +29320,7 @@ zP
 zP
 zP
 Qp
-Gx
+Zy
 Co
 Co
 Co
@@ -29567,9 +29573,9 @@ DX
 pU
 pU
 Yn
-Gx
+Zy
 Xn
-Gx
+Zy
 Yn
 pU
 pU
@@ -29806,11 +29812,11 @@ Co
 Co
 Co
 pU
-Gx
-Gx
+Zy
+Zy
 pU
-Gx
-Gx
+Zy
+Zy
 pU
 Iy
 CT
@@ -31322,12 +31328,12 @@ Co
 Co
 Co
 Ww
-rY
+VK
 MH
 Nz
 BY
 Cr
-GR
+vl
 Ww
 Co
 Co
@@ -31580,7 +31586,7 @@ Co
 Co
 Ww
 Mw
-IT
+RC
 NJ
 BZ
 Cz
@@ -31837,7 +31843,7 @@ Co
 Co
 Ww
 mJ
-Fg
+XZ
 Ww
 Ca
 Yc
@@ -32094,7 +32100,7 @@ Co
 Co
 Ww
 Mw
-IT
+RC
 NJ
 BZ
 CJ
@@ -32608,7 +32614,7 @@ Co
 Co
 Ww
 Mw
-IT
+RC
 NJ
 BZ
 Zi
@@ -32616,19 +32622,19 @@ ZI
 Ww
 Nn
 Nn
-qx
+PB
 OR
 WQ
 ZP
 WQ
 Fa
-qx
+PB
 Nn
 Nn
 Nn
 Nn
-qx
-qx
+PB
+PB
 Hm
 Ma
 Qt
@@ -32865,14 +32871,14 @@ Co
 Co
 Ww
 Ww
-Fg
+XZ
 Ww
 Cg
 Zk
 CY
 Ww
-PJ
-uz
+yI
+Gu
 JW
 Ea
 VC
@@ -32884,7 +32890,7 @@ Co
 Nn
 Co
 Co
-qx
+PB
 sQ
 rD
 vi
@@ -33122,24 +33128,24 @@ Co
 Co
 Ww
 Mw
-IT
-cK
+RC
+Ho
 Ch
 Ye
-sb
+GW
 Ww
 Rp
-FU
-qx
+wX
+PB
 Eb
 WQ
 ZP
 WQ
 Fh
-qx
-qx
-qx
-qx
+PB
+PB
+PB
+PB
 Rp
 Qt
 sY
@@ -33386,7 +33392,7 @@ QT
 Da
 Ww
 Os
-Wo
+cO
 YX
 Ef
 OH
@@ -33398,7 +33404,7 @@ YX
 YX
 Os
 Os
-qx
+PB
 GY
 zg
 DC
@@ -33636,14 +33642,14 @@ Co
 Co
 Ww
 Mw
-PK
+MW
 NJ
-Rt
+AB
 NW
-Js
+ft
 Ww
 OH
-lT
+Ny
 jT
 Eg
 Ev
@@ -33655,7 +33661,7 @@ FK
 FK
 rR
 rR
-qx
+PB
 gr
 zh
 Wp
@@ -33900,7 +33906,7 @@ CO
 Ob
 Ww
 De
-Wu
+Rb
 Rr
 Rr
 Rr
@@ -34157,7 +34163,7 @@ NX
 Mx
 Ww
 zg
-Wu
+Rb
 DS
 Ei
 Rr
@@ -34407,15 +34413,15 @@ Co
 Co
 Ww
 Ww
-qO
+he
 Ww
 Mx
 NY
 Mx
 Ww
 Df
-jG
-do
+Ih
+Tk
 DH
 Ex
 Fx
@@ -34664,7 +34670,7 @@ Co
 Co
 Ww
 MA
-fS
+ku
 Ww
 NV
 iP
@@ -34672,7 +34678,7 @@ Mx
 Ww
 Ww
 OQ
-WO
+uu
 Mx
 zg
 Fx
@@ -34921,7 +34927,7 @@ Co
 Co
 Ww
 MA
-dd
+tl
 Ww
 Cm
 CR
@@ -35178,11 +35184,11 @@ Co
 Co
 Ww
 BT
-bq
+ac
 BX
-oL
+dQ
 iW
-co
+kR
 Oq
 jX
 Qw
@@ -35434,7 +35440,7 @@ Co
 Co
 Co
 Ww
-ah
+hw
 BV
 Ww
 ZE
@@ -35699,7 +35705,7 @@ Ww
 OQ
 Ww
 Ww
-Uc
+tr
 Ww
 Ww
 Ww
@@ -35956,13 +35962,13 @@ Ud
 Ud
 Ud
 Dm
-YE
+NT
 DV
 kK
-PY
+OT
 EQ
 EA
-qv
+ar
 nY
 bP
 hH
@@ -36213,7 +36219,7 @@ Xa
 Xa
 js
 OB
-ML
+Eq
 Zz
 Zz
 Zz
@@ -36470,14 +36476,14 @@ Xa
 Xa
 js
 Du
-yq
+hg
 Zz
 Ek
 Zz
 Zz
 Zz
 FB
-TI
+tk
 FQ
 Zz
 Gl
@@ -36727,15 +36733,15 @@ Ym
 Xa
 js
 kc
-VF
+eR
 Zz
-mt
+Aa
 Zz
 Zz
 PW
-tx
+km
 Zz
-ai
+co
 Zz
 Gm
 va
@@ -36984,15 +36990,15 @@ Xa
 Xa
 js
 Dw
-xk
+MP
 Zz
 Em
 Zz
 Zz
 Zz
 FC
-on
-MY
+MZ
+EM
 Zz
 Gq
 Ww
@@ -42409,10 +42415,10 @@ eh
 eh
 eh
 eh
-Cj
-Cj
-Cj
-Cj
+PP
+PP
+PP
+PP
 eh
 eh
 eh
@@ -43430,10 +43436,10 @@ Co
 Co
 Co
 Co
-Cj
+PP
 Cs
 Ya
-Cj
+PP
 WV
 WV
 WV
@@ -43444,7 +43450,7 @@ WV
 WV
 WV
 WV
-Cj
+PP
 Ws
 CF
 lQ
@@ -43687,10 +43693,10 @@ Co
 Co
 Co
 Co
-hL
+Qb
 Cs
 Ya
-Cj
+PP
 TJ
 TJ
 TJ
@@ -43701,7 +43707,7 @@ Sy
 TJ
 TJ
 TJ
-Cj
+PP
 Ws
 CF
 xy
@@ -43944,10 +43950,10 @@ Co
 Co
 Co
 Co
-Cj
+PP
 Cs
 Ya
-Cj
+PP
 WV
 WV
 WV
@@ -43958,7 +43964,7 @@ WV
 WV
 WV
 WV
-Cj
+PP
 Ws
 CF
 TC
@@ -44979,10 +44985,10 @@ eh
 eh
 eh
 eh
-Cj
-Cj
-Cj
-Cj
+PP
+PP
+PP
+PP
 eh
 eh
 eh
@@ -45745,8 +45751,8 @@ Co
 Co
 eh
 eh
-Cj
-Cj
+PP
+PP
 eh
 eh
 nM
@@ -57849,9 +57855,9 @@ ju
 ju
 ju
 ju
-ci
-ci
-ci
+eK
+eK
+eK
 ju
 Co
 Co
@@ -65669,7 +65675,7 @@ uX
 Eu
 wf
 wt
-hd
+py
 Hk
 ZM
 ZM
@@ -69011,7 +69017,7 @@ ZM
 Hk
 Fr
 Ic
-uu
+Wt
 IA
 Hr
 Hr
@@ -70037,7 +70043,7 @@ ZM
 Ec
 Eu
 ER
-tI
+oC
 Hk
 zV
 ZM
