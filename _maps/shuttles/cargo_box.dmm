@@ -2,6 +2,13 @@
 "b" = (
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/supply)
+"c" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/turf/open/floor/mineral/titanium,
+/area/shuttle/supply)
 "e" = (
 /turf/open/floor/mineral/titanium/blue,
 /area/shuttle/supply)
@@ -14,13 +21,15 @@
 	id = "QMLoaddoor2";
 	name = "supply dock loading door"
 	},
-/turf/open/floor/plating,
+/obj/structure/fans/tiny,
+/turf/open/floor/mineral/titanium,
 /area/shuttle/supply)
 "g" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Supply Shuttle Airlock";
 	req_access_txt = "31"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/supply)
 "h" = (
@@ -39,7 +48,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/mineral/titanium/white,
 /area/shuttle/supply)
 "i" = (
 /obj/machinery/door/airlock/titanium{
@@ -47,6 +56,7 @@
 	req_access_txt = "31"
 	},
 /obj/docking_port/mobile/supply,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/shuttle/supply)
 "j" = (
@@ -58,10 +68,14 @@
 	id = "QMLoaddoor";
 	name = "supply dock loading door"
 	},
-/turf/open/floor/plating,
+/obj/structure/fans/tiny,
+/turf/open/floor/mineral/titanium,
 /area/shuttle/supply)
 "l" = (
 /turf/closed/wall/mineral/titanium/interior,
+/area/shuttle/supply)
+"o" = (
+/turf/open/floor/mineral/titanium/white,
 /area/shuttle/supply)
 "q" = (
 /obj/structure/window/reinforced{
@@ -69,6 +83,10 @@
 	},
 /obj/structure/shuttle/engine/heater,
 /turf/open/floor/plating/airless,
+/area/shuttle/supply)
+"r" = (
+/obj/structure/window/reinforced,
+/turf/open/floor/mineral/titanium/blue,
 /area/shuttle/supply)
 "s" = (
 /turf/template_noop,
@@ -96,6 +114,13 @@
 	dir = 8
 	},
 /turf/open/floor/mineral/titanium/blue,
+/area/shuttle/supply)
+"H" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "QMLoad2"
+	},
+/turf/open/floor/mineral/titanium,
 /area/shuttle/supply)
 
 (1,1,1) = {"
@@ -136,7 +161,7 @@ e
 e
 e
 e
-e
+r
 q
 u
 "}
@@ -150,7 +175,7 @@ e
 e
 e
 e
-e
+r
 q
 u
 "}
@@ -164,7 +189,7 @@ e
 e
 e
 e
-e
+r
 q
 u
 "}
@@ -172,11 +197,11 @@ u
 b
 e
 e
-e
-e
+H
+o
 h
-e
-e
+o
+c
 e
 l
 b
